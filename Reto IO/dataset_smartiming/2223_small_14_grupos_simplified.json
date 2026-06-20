@@ -1,0 +1,4913 @@
+{
+  "Slots": [
+    {
+      "Dia": "Lunes",
+      "Slot": "1",
+      "Inicio": "08:15",
+      "Fin": "09:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "2",
+      "Inicio": "09:15",
+      "Fin": "10:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "3",
+      "Inicio": "10:15",
+      "Fin": "11:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "R",
+      "Inicio": "11:15",
+      "Fin": "11:45",
+      "Tipo": "Recreo",
+      "Demanda Guardias Pasillo": 0,
+      "Demanda Guardias Recreo": 3,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "4",
+      "Inicio": "11:45",
+      "Fin": "12:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "5",
+      "Inicio": "12:45",
+      "Fin": "13:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Lunes",
+      "Slot": "6",
+      "Inicio": "13:45",
+      "Fin": "14:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "1",
+      "Inicio": "08:15",
+      "Fin": "09:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "2",
+      "Inicio": "09:15",
+      "Fin": "10:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 2,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "3",
+      "Inicio": "10:15",
+      "Fin": "11:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "R",
+      "Inicio": "11:15",
+      "Fin": "11:45",
+      "Tipo": "Recreo",
+      "Demanda Guardias Pasillo": 0,
+      "Demanda Guardias Recreo": 1,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "4",
+      "Inicio": "11:45",
+      "Fin": "12:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "5",
+      "Inicio": "12:45",
+      "Fin": "13:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Martes",
+      "Slot": "6",
+      "Inicio": "13:45",
+      "Fin": "14:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "1",
+      "Inicio": "08:15",
+      "Fin": "09:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "2",
+      "Inicio": "09:15",
+      "Fin": "10:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "3",
+      "Inicio": "10:15",
+      "Fin": "11:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "R",
+      "Inicio": "11:15",
+      "Fin": "11:45",
+      "Tipo": "Recreo",
+      "Demanda Guardias Pasillo": 0,
+      "Demanda Guardias Recreo": 4,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "4",
+      "Inicio": "11:45",
+      "Fin": "12:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "5",
+      "Inicio": "12:45",
+      "Fin": "13:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Miercoles",
+      "Slot": "6",
+      "Inicio": "13:45",
+      "Fin": "14:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "1",
+      "Inicio": "08:15",
+      "Fin": "09:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "2",
+      "Inicio": "09:15",
+      "Fin": "10:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "3",
+      "Inicio": "10:15",
+      "Fin": "11:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "R",
+      "Inicio": "11:15",
+      "Fin": "11:45",
+      "Tipo": "Recreo",
+      "Demanda Guardias Pasillo": 0,
+      "Demanda Guardias Recreo": 6,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "4",
+      "Inicio": "11:45",
+      "Fin": "12:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "5",
+      "Inicio": "12:45",
+      "Fin": "13:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Jueves",
+      "Slot": "6",
+      "Inicio": "13:45",
+      "Fin": "14:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "1",
+      "Inicio": "08:15",
+      "Fin": "09:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "2",
+      "Inicio": "09:15",
+      "Fin": "10:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "3",
+      "Inicio": "10:15",
+      "Fin": "11:15",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "R",
+      "Inicio": "11:15",
+      "Fin": "11:45",
+      "Tipo": "Recreo",
+      "Demanda Guardias Pasillo": 0,
+      "Demanda Guardias Recreo": 5,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "4",
+      "Inicio": "11:45",
+      "Fin": "12:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "5",
+      "Inicio": "12:45",
+      "Fin": "13:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 4,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    },
+    {
+      "Dia": "Viernes",
+      "Slot": "6",
+      "Inicio": "13:45",
+      "Fin": "14:45",
+      "Tipo": "Clase",
+      "Demanda Guardias Pasillo": 3,
+      "Demanda Guardias Recreo": 0,
+      "Demanda Guardias Convivencia": 0
+    }
+  ],
+  "Docentes": [
+    {
+      "Docente Id": "DOC001",
+      "Docente Nombre": "Apellidos001, Nombre001",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC002",
+      "Docente Nombre": "Apellidos002, Nombre002",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC003",
+      "Docente Nombre": "Apellidos003, Nombre003",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC004",
+      "Docente Nombre": "Apellidos004, Nombre004",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 1,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC005",
+      "Docente Nombre": "Apellidos005, Nombre005",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC006",
+      "Docente Nombre": "Apellidos006, Nombre006",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 4
+    },
+    {
+      "Docente Id": "DOC007",
+      "Docente Nombre": "Apellidos007, Nombre007",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC010",
+      "Docente Nombre": "Apellidos010, Nombre010",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC011",
+      "Docente Nombre": "Apellidos011, Nombre011",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC012",
+      "Docente Nombre": "Apellidos012, Nombre012",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC013",
+      "Docente Nombre": "Apellidos013, Nombre013",
+      "Guardias Pasillo Semana": 1,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC015",
+      "Docente Nombre": "Apellidos016, Nombre016",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC017",
+      "Docente Nombre": "Apellidos017, Nombre017",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC018",
+      "Docente Nombre": "Apellidos018, Nombre018",
+      "Guardias Pasillo Semana": 0,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC019",
+      "Docente Nombre": "Apellidos019, Nombre019",
+      "Guardias Pasillo Semana": 1,
+      "Guardias Recreo Semana": 4,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC020",
+      "Docente Nombre": "Apellidos020, Nombre020",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC021",
+      "Docente Nombre": "Apellidos021, Nombre021",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC022",
+      "Docente Nombre": "Apellidos022, Nombre022",
+      "Guardias Pasillo Semana": 1,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC023",
+      "Docente Nombre": "Apellidos023, Nombre023",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 1,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC026",
+      "Docente Nombre": "Apellidos026, Nombre026",
+      "Guardias Pasillo Semana": 1,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC027",
+      "Docente Nombre": "Apellidos027, Nombre027",
+      "Guardias Pasillo Semana": 1,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC028",
+      "Docente Nombre": "Apellidos028, Nombre028",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC030",
+      "Docente Nombre": "Apellidos030, Nombre030",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC031",
+      "Docente Nombre": "Apellidos031, Nombre031",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC032",
+      "Docente Nombre": "Apellidos032, Nombre032",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC033",
+      "Docente Nombre": "Apellidos033, Nombre033",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC034",
+      "Docente Nombre": "Apellidos034, Nombre034",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC036",
+      "Docente Nombre": "Apellidos036, Nombre036",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 1,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC037",
+      "Docente Nombre": "Apellidos037, Nombre037",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC038",
+      "Docente Nombre": "Apellidos038, Nombre038",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC039",
+      "Docente Nombre": "Apellidos039, Nombre039",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC040",
+      "Docente Nombre": "Apellidos040, Nombre040",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC042",
+      "Docente Nombre": "Apellidos042, Nombre042",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC044",
+      "Docente Nombre": "Apellidos044, Nombre044",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC045",
+      "Docente Nombre": "Apellidos045, Nombre045",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 1,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC047",
+      "Docente Nombre": "Apellidos047, Nombre047",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC048",
+      "Docente Nombre": "Apellidos048, Nombre048",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC049",
+      "Docente Nombre": "Apellidos049, Nombre049",
+      "Guardias Pasillo Semana": 0,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC050",
+      "Docente Nombre": "Apellidos050, Nombre050",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC051",
+      "Docente Nombre": "Apellidos051, Nombre051",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC052",
+      "Docente Nombre": "Apellidos052, Nombre052",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC053",
+      "Docente Nombre": "Apellidos053, Nombre053",
+      "Guardias Pasillo Semana": 0,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC054",
+      "Docente Nombre": "Apellidos054, Nombre054",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC055",
+      "Docente Nombre": "Apellidos055, Nombre055",
+      "Guardias Pasillo Semana": 2,
+      "Guardias Recreo Semana": 2,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC056",
+      "Docente Nombre": "Apellidos056, Nombre056",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 2,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC057",
+      "Docente Nombre": "Apellidos057, Nombre057",
+      "Guardias Pasillo Semana": 0,
+      "Guardias Recreo Semana": 1,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    },
+    {
+      "Docente Id": "DOC058",
+      "Docente Nombre": "Apellidos058, Nombre058",
+      "Guardias Pasillo Semana": 3,
+      "Guardias Recreo Semana": 0,
+      "Guardias Convivencia Semana": 0,
+      "Minimo Clases Dia": 0,
+      "Maximo Clases Dia": 5
+    }
+  ],
+  "Grupos": [
+    {
+      "Grupo Id": "1ESOA",
+      "Nombre Completo": "1º ESO A"
+    },
+    {
+      "Grupo Id": "1ESOB",
+      "Nombre Completo": "1º ESO B"
+    },
+    {
+      "Grupo Id": "1ESOC",
+      "Nombre Completo": "1º ESO C"
+    },
+    {
+      "Grupo Id": "1ESOD",
+      "Nombre Completo": "1º ESO D"
+    },
+    {
+      "Grupo Id": "2ESOA",
+      "Nombre Completo": "2º ESO A"
+    },
+    {
+      "Grupo Id": "2ESOB",
+      "Nombre Completo": "2º ESO B"
+    },
+    {
+      "Grupo Id": "2ESOC",
+      "Nombre Completo": "2º ESO C"
+    },
+    {
+      "Grupo Id": "2ESOD",
+      "Nombre Completo": "2 ESO D"
+    },
+    {
+      "Grupo Id": "3ESOA",
+      "Nombre Completo": "3º ESO A"
+    },
+    {
+      "Grupo Id": "3ADIV",
+      "Nombre Completo": "3 ESO A DIV"
+    },
+    {
+      "Grupo Id": "3ESOB",
+      "Nombre Completo": "3º ESO B"
+    },
+    {
+      "Grupo Id": "3BDIV",
+      "Nombre Completo": "3 ESO B DIV"
+    },
+    {
+      "Grupo Id": "3ESOC",
+      "Nombre Completo": "3º ESO C"
+    },
+    {
+      "Grupo Id": "3CDIV",
+      "Nombre Completo": "3 ESO C DIV"
+    }
+  ],
+  "Aulas": [
+    {
+      "Aula Id": "GIMNA",
+      "Nombre": "GIMNASIO",
+      "Compartible": true,
+      "Capacidad": 2
+    },
+    {
+      "Aula Id": "LABCN",
+      "Nombre": "LABORAT de BIOLOGIA",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "TLDIB",
+      "Nombre": "TALLER de DIBUJO",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "TLTEC",
+      "Nombre": "TALLER de TECNOLOGIA",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AUMUS",
+      "Nombre": "AULA de MUSICA",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "DPFIL",
+      "Nombre": "DPTO de FILOSOFIA",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU1EA",
+      "Nombre": "AULA de 1º ESO A",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU1EB",
+      "Nombre": "AULA de 1º ESO B",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU1EC",
+      "Nombre": "AULA de 1º ESO C",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU1ED",
+      "Nombre": "AULA de 1º ESO D",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU2EA",
+      "Nombre": "AULA de 2º ESO A",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU2EB",
+      "Nombre": "AULA de 2º ESO B",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU2EC",
+      "Nombre": "AULA de 2º ESO C",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU2ED",
+      "Nombre": "AULA 2 ESO D",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU3EA",
+      "Nombre": "AULA de 3º ESO A",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU3EB",
+      "Nombre": "AULA de 3º ESO B",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AU3EC",
+      "Nombre": "AULA 3º ESO C",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "Ttec",
+      "Nombre": "TALLER TECNOLOGIA TIC",
+      "Compartible": false,
+      "Capacidad": 1
+    },
+    {
+      "Aula Id": "AUDC",
+      "Nombre": "AULA DESDOBLE CANTINA",
+      "Compartible": false,
+      "Capacidad": 1
+    }
+  ],
+  "Asignaturas": [
+    {
+      "Asignatura Id": "LCL1",
+      "Nombre": "LENGUA CASTELLANA",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "GeH1",
+      "Nombre": "GEOGRAFIA E HISTORIA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "MAT1",
+      "Nombre": "MATEMATICAS",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "ByG1",
+      "Nombre": "BIOLOGIA Y GEOLOGIA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "ING1",
+      "Nombre": "INGLES",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "MUS1",
+      "Nombre": "MUSICA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "EF1",
+      "Nombre": "EDUCACION FISICA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "FR21",
+      "Nombre": "FRANCES 2º IDIOMA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "REL1",
+      "Nombre": "RELIGION",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "ATED1",
+      "Nombre": "ATENCION EDUCATIVA",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "RFMT1",
+      "Nombre": "REFUERZO MATEMATICAS",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "RFLE1",
+      "Nombre": "REFUERZO LENGUA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "RING1",
+      "Nombre": "Refuerzo Ingles  1º ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "AJED1",
+      "Nombre": "AJEDREZ 1",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "CyR",
+      "Nombre": "COMPUTACION y ROBOTICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "APY",
+      "Nombre": "APOYO 1ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TUT1",
+      "Nombre": "TUTORIA",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "LCL2",
+      "Nombre": "LENGUA CASTELLANA",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "GeH2",
+      "Nombre": "GEOGRAFIA E HISTORIA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "MAT2",
+      "Nombre": "MATEMATICAS",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "FyQ2",
+      "Nombre": "FISICA Y QUIMICA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "EPV2",
+      "Nombre": "PLASTICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "ING2",
+      "Nombre": "INGLES",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "MUS2",
+      "Nombre": "MUSICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "EF2",
+      "Nombre": "EDUCACION  FISICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TEC2",
+      "Nombre": "TECNOLOGIA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "FR22",
+      "Nombre": "FRANCES 2º IDIOMA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "REL2",
+      "Nombre": "RELIGION",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "VET2",
+      "Nombre": "VALORES ETICOS",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "LMC2",
+      "Nombre": "METODOS DE LA CIENCIA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "OING2",
+      "Nombre": "Optativa Ingles 2º ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "AJED2",
+      "Nombre": "AJEDREZ 2º ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "CyR2",
+      "Nombre": "COMPUTACION y ROBOTICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TUT2",
+      "Nombre": "TUTORIA",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "ACM3",
+      "Nombre": "AMBITO CIENT MATEM DIV 3ESO",
+      "Horas Semanales": 8,
+      "Distribucion Semanal": "120,120,120,120"
+    },
+    {
+      "Asignatura Id": "ASL3",
+      "Nombre": "AMBITO SOCIOLING PMAR 3ESO",
+      "Horas Semanales": 6,
+      "Distribucion Semanal": "120,120,120"
+    },
+    {
+      "Asignatura Id": "AING3",
+      "Nombre": "AMBITO INGLES PMAR 3ESO",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "LCL3",
+      "Nombre": "LENGUA CASTELLANA",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "MAT3",
+      "Nombre": "MATEMATICAS",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "ING3",
+      "Nombre": "INGLES",
+      "Horas Semanales": 4,
+      "Distribucion Semanal": "60,60,60,60"
+    },
+    {
+      "Asignatura Id": "GeH3",
+      "Nombre": "GEOGRAFIA E HISTORIA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "FyQ3",
+      "Nombre": "FISICA Y  QUIMICA",
+      "Horas Semanales": 3,
+      "Distribucion Semanal": "60,60,60"
+    },
+    {
+      "Asignatura Id": "ByG3",
+      "Nombre": "CIENCIAS NATURALES",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "EPVA3",
+      "Nombre": "EPVA 3º ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "EF3",
+      "Nombre": "EDUCACION FISICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TEC3",
+      "Nombre": "TECNOLOGIA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "ATED3",
+      "Nombre": "ATENCION EDUCATICA",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "REL3",
+      "Nombre": "RELIGION",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "FR23",
+      "Nombre": "FRANCES 2º IDIOMA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TMAN3",
+      "Nombre": "TECNICA MANTENIMIENTO 3º ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "OyD3",
+      "Nombre": "ORATORIA Y DEBATE 3 ESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "CyR3",
+      "Nombre": "COMPUTACION y ROBOTICA",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "OPDIV",
+      "Nombre": "OPTATIVA DIVERSIFICACION 3ºESO",
+      "Horas Semanales": 2,
+      "Distribucion Semanal": "60,60"
+    },
+    {
+      "Asignatura Id": "TUT3",
+      "Nombre": "TUTORIA",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    },
+    {
+      "Asignatura Id": "TUOR3",
+      "Nombre": "TUTORIA ORIENTACION",
+      "Horas Semanales": 1,
+      "Distribucion Semanal": "60"
+    }
+  ],
+  "Eventos": [
+    {
+      "Evento Id": "E0001",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "LCL1",
+      "Docente Id": "DOC007",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0002",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "GeH1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0003",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "MAT1",
+      "Docente Id": "DOC054",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0004",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "ByG1",
+      "Docente Id": "DOC001",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0005",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "ING1",
+      "Docente Id": "DOC058",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0006",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "MUS1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0007",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "EF1",
+      "Docente Id": "DOC031",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0008",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "EF1",
+      "Docente Id": "DOC038",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0009",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "REL1",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0010",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "REL1",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0011",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "ATED1",
+      "Docente Id": "DOC031",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0012",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "ATED1",
+      "Docente Id": "DOC039",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0013",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "CyR",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0014",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "CyR",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0015",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "CyR",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0016",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "CyR",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0017",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "AJED1",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0018",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "AJED1",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0019",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "AJED1",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0020",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "AJED1",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0021",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "RING1",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0022",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "RING1",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0023",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "RING1",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0024",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "RING1",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0025",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "RFLE1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0026",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "RFLE1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0027",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "RFLE1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0028",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "RFLE1",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0029",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "RFMT1",
+      "Docente Id": "DOC028",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0030",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "RFMT1",
+      "Docente Id": "DOC028",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0031",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "RFMT1",
+      "Docente Id": "DOC028",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0032",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "RFMT1",
+      "Docente Id": "DOC028",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0033",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "APY",
+      "Docente Id": "DOC057",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0034",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "FR21",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0035",
+      "Grupo Id": "1ESOA",
+      "Asignatura Id": "TUT1",
+      "Docente Id": "DOC054",
+      "Aula Id": "AU1EA"
+    },
+    {
+      "Evento Id": "E0036",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "LCL1",
+      "Docente Id": "DOC021",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0037",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "GeH1",
+      "Docente Id": "DOC003",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0038",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "MAT1",
+      "Docente Id": "DOC048",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0039",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "ByG1",
+      "Docente Id": "DOC001",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0040",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "ING1",
+      "Docente Id": "DOC044",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0041",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "MUS1",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0042",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "REL1",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0043",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "REL1",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0044",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "ATED1",
+      "Docente Id": "DOC011",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0045",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "ATED1",
+      "Docente Id": "DOC047",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0046",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "APY",
+      "Docente Id": "DOC049",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0047",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "FR21",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0048",
+      "Grupo Id": "1ESOB",
+      "Asignatura Id": "TUT1",
+      "Docente Id": "DOC003",
+      "Aula Id": "AU1EB"
+    },
+    {
+      "Evento Id": "E0049",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "LCL1",
+      "Docente Id": "DOC007",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0050",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "GeH1",
+      "Docente Id": "DOC039",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0051",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "MAT1",
+      "Docente Id": "DOC048",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0052",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "ByG1",
+      "Docente Id": "DOC051",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0053",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "ING1",
+      "Docente Id": "DOC036",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0054",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "MUS1",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0055",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "EF1",
+      "Docente Id": "DOC031",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0056",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "EF1",
+      "Docente Id": "DOC038",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0057",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "APY",
+      "Docente Id": "DOC057",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0058",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "FR21",
+      "Docente Id": "DOC033",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0059",
+      "Grupo Id": "1ESOC",
+      "Asignatura Id": "TUT1",
+      "Docente Id": "DOC036",
+      "Aula Id": "AU1EC"
+    },
+    {
+      "Evento Id": "E0060",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "LCL1",
+      "Docente Id": "DOC007",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0061",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "GeH1",
+      "Docente Id": "DOC052",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0062",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "MAT1",
+      "Docente Id": "DOC048",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0063",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "ByG1",
+      "Docente Id": "DOC051",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0064",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "ING1",
+      "Docente Id": "DOC002",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0065",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "MUS1",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0066",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "APY",
+      "Docente Id": "DOC049",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0067",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "FR21",
+      "Docente Id": "DOC033",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0068",
+      "Grupo Id": "1ESOD",
+      "Asignatura Id": "TUT1",
+      "Docente Id": "DOC033",
+      "Aula Id": "AU1ED"
+    },
+    {
+      "Evento Id": "E0069",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "LCL2",
+      "Docente Id": "DOC021",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0070",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "GeH2",
+      "Docente Id": "DOC052",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0071",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "MAT2",
+      "Docente Id": "DOC055",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0072",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "FyQ2",
+      "Docente Id": "DOC005",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0073",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "EPV2",
+      "Docente Id": "DOC050",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0074",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "ING2",
+      "Docente Id": "DOC036",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0075",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "MUS2",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0076",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "TEC2",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0077",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "REL2",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0078",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "REL2",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0080",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "VET2",
+      "Docente Id": "DOC011",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0081",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "VET2",
+      "Docente Id": "DOC011",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0083",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "CyR2",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0084",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "CyR2",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0086",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "CyR2",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0088",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "CyR2",
+      "Docente Id": "DOC004",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0089",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "FR22",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0090",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "FR22",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0092",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "FR22",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0094",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "FR22",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0095",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "LMC2",
+      "Docente Id": "DOC045",
+      "Aula Id": "LABCN"
+    },
+    {
+      "Evento Id": "E0096",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "LMC2",
+      "Docente Id": "DOC045",
+      "Aula Id": "LABCN"
+    },
+    {
+      "Evento Id": "E0098",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "LMC2",
+      "Docente Id": "DOC045",
+      "Aula Id": "LABCN"
+    },
+    {
+      "Evento Id": "E0100",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "LMC2",
+      "Docente Id": "DOC045",
+      "Aula Id": "LABCN"
+    },
+    {
+      "Evento Id": "E0101",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "AJED2",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0102",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "AJED2",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0104",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "AJED2",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0106",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "AJED2",
+      "Docente Id": "DOC026",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0107",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "OING2",
+      "Docente Id": "DOC044",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0108",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "OING2",
+      "Docente Id": "DOC044",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0110",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "OING2",
+      "Docente Id": "DOC044",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0112",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "OING2",
+      "Docente Id": "DOC044",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0113",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "TUT2",
+      "Docente Id": "DOC055",
+      "Aula Id": "AU2EA"
+    },
+    {
+      "Evento Id": "E0114",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "LCL2",
+      "Docente Id": "DOC021",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0115",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "GeH2",
+      "Docente Id": "DOC042",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0116",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "MAT2",
+      "Docente Id": "DOC020",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0117",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "FyQ2",
+      "Docente Id": "DOC005",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0118",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "EPV2",
+      "Docente Id": "DOC050",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0120",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "ING2",
+      "Docente Id": "DOC006",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0121",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "MUS2",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0122",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "TEC2",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0123",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "REL2",
+      "Docente Id": "DOC037",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0125",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "REL2",
+      "Docente Id": "DOC037",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0126",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "VET2",
+      "Docente Id": "DOC011",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0128",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "VET2",
+      "Docente Id": "DOC048",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0129",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "TUT2",
+      "Docente Id": "DOC006",
+      "Aula Id": "AU2EB"
+    },
+    {
+      "Evento Id": "E0141",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "LCL2",
+      "Docente Id": "DOC007",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0142",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "GeH2",
+      "Docente Id": "DOC023",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0143",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "MAT2",
+      "Docente Id": "DOC048",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0144",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "FyQ2",
+      "Docente Id": "DOC005",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0145",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "EPV2",
+      "Docente Id": "DOC050",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0147",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "ING2",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0148",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "MUS2",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0149",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "EF2",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0151",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "TEC2",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0152",
+      "Grupo Id": "2ESOC",
+      "Asignatura Id": "TUT2",
+      "Docente Id": "DOC050",
+      "Aula Id": "AU2EC"
+    },
+    {
+      "Evento Id": "E0154",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "LCL2",
+      "Docente Id": "DOC021",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0155",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "GeH2",
+      "Docente Id": "DOC042",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0156",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "MAT2",
+      "Docente Id": "DOC020",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0157",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "FyQ2",
+      "Docente Id": "DOC030",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0158",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "EPV2",
+      "Docente Id": "DOC050",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0159",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "ING2",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0160",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "MUS2",
+      "Docente Id": "DOC027",
+      "Aula Id": "AUMUS"
+    },
+    {
+      "Evento Id": "E0161",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "EF2",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0162",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "TEC2",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0163",
+      "Grupo Id": "2ESOD",
+      "Asignatura Id": "TUT2",
+      "Docente Id": "DOC021",
+      "Aula Id": "AU2ED"
+    },
+    {
+      "Evento Id": "E0164",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "LCL3",
+      "Docente Id": "DOC032",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0165",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "MAT3",
+      "Docente Id": "DOC028",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0166",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "ING3",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0167",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "GeH3",
+      "Docente Id": "DOC023",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0168",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "FyQ3",
+      "Docente Id": "DOC005",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0169",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "ByG3",
+      "Docente Id": "DOC045",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0170",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC040",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0171",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC040",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0172",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0173",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0174",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC004",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0175",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC004",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0176",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC033",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0177",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC033",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0178",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0179",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0180",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0181",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0182",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0183",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0184",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0185",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC015",
+      "Aula Id": "NoAu"
+    },
+    {
+      "Evento Id": "E0186",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0187",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0188",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0189",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0190",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0191",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "OyD3",
+      "Docente Id": "DOC047",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0192",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0193",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0194",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0195",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0196",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0197",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "TMAN3",
+      "Docente Id": "DOC004",
+      "Aula Id": "TLTEC"
+    },
+    {
+      "Evento Id": "E0198",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0199",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0200",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0201",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0202",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0203",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "CyR3",
+      "Docente Id": "DOC012",
+      "Aula Id": "Ttec"
+    },
+    {
+      "Evento Id": "E0204",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0205",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0206",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0207",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0208",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0209",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "FR23",
+      "Docente Id": "DOC019",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0210",
+      "Grupo Id": "3ESOA",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC045",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0211",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC045",
+      "Aula Id": "AU3EA"
+    },
+    {
+      "Evento Id": "E0212",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "LCL3",
+      "Docente Id": "DOC017",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0213",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "MAT3",
+      "Docente Id": "DOC054",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0214",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "ING3",
+      "Docente Id": "DOC058",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0215",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "GeH3",
+      "Docente Id": "DOC023",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0216",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "FyQ3",
+      "Docente Id": "DOC022",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0217",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "ByG3",
+      "Docente Id": "DOC045",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0218",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC040",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0219",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC040",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0220",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC034",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0221",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC034",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0222",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC004",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0223",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC004",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0224",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0225",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0226",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0227",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "REL3",
+      "Docente Id": "DOC037",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0228",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0229",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0230",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC047",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0231",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "ATED3",
+      "Docente Id": "DOC047",
+      "Aula Id": "DPFIL"
+    },
+    {
+      "Evento Id": "E0232",
+      "Grupo Id": "3ESOB",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC017",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0233",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC017",
+      "Aula Id": "AU3EB"
+    },
+    {
+      "Evento Id": "E0234",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "ACM3",
+      "Docente Id": "DOC020",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0235",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "ACM3",
+      "Docente Id": "DOC020",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0236",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "ACM3",
+      "Docente Id": "DOC020",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0237",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "AING3",
+      "Docente Id": "DOC002",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0238",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "AING3",
+      "Docente Id": "DOC002",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0239",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "AING3",
+      "Docente Id": "DOC002",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0240",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "OPDIV",
+      "Docente Id": "DOC047",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0241",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "OPDIV",
+      "Docente Id": "DOC047",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0242",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "OPDIV",
+      "Docente Id": "DOC047",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0243",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "TUOR3",
+      "Docente Id": "DOC013",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0244",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "TUOR3",
+      "Docente Id": "DOC013",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0245",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "TUOR3",
+      "Docente Id": "DOC013",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0246",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "LCL3",
+      "Docente Id": "DOC053",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0247",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "MAT3",
+      "Docente Id": "DOC054",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0248",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "ING3",
+      "Docente Id": "DOC056",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0249",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "GeH3",
+      "Docente Id": "DOC039",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0250",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "FyQ3",
+      "Docente Id": "DOC022",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0251",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "ByG3",
+      "Docente Id": "DOC045",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0252",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC050",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0253",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "EPVA3",
+      "Docente Id": "DOC050",
+      "Aula Id": "TLDIB"
+    },
+    {
+      "Evento Id": "E0254",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0255",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "EF3",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0256",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0257",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "TEC3",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0258",
+      "Grupo Id": "3ESOC",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0259",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "TUT3",
+      "Docente Id": "DOC012",
+      "Aula Id": "AU3EC"
+    },
+    {
+      "Evento Id": "E0260",
+      "Grupo Id": "3CDIV",
+      "Asignatura Id": "ASL3",
+      "Docente Id": "DOC010",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0261",
+      "Grupo Id": "3BDIV",
+      "Asignatura Id": "ASL3",
+      "Docente Id": "DOC010",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0262",
+      "Grupo Id": "3ADIV",
+      "Asignatura Id": "ASL3",
+      "Docente Id": "DOC010",
+      "Aula Id": "AUDC"
+    },
+    {
+      "Evento Id": "E0320",
+      "Grupo Id": "2ESOA",
+      "Asignatura Id": "EF2",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    },
+    {
+      "Evento Id": "E0363",
+      "Grupo Id": "2ESOB",
+      "Asignatura Id": "EF2",
+      "Docente Id": "DOC038",
+      "Aula Id": "GIMNA"
+    }
+  ],
+  "Reuniones": [
+    {
+      "Reunion Id": "RTUT1",
+      "Nombre": "RTUT1",
+      "Duracion Slots": 1
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Nombre": "RTUT2",
+      "Duracion Slots": 1
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Nombre": "RTUT3",
+      "Duracion Slots": 1
+    }
+  ],
+  "Participantes_Reunion": [
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC054"
+    },
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC033"
+    },
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC036"
+    },
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC003"
+    },
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC018"
+    },
+    {
+      "Reunion Id": "RTUT1",
+      "Docente Id": "DOC013"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC055"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC006"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC050"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC021"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC013"
+    },
+    {
+      "Reunion Id": "RTUT2",
+      "Docente Id": "DOC018"
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Docente Id": "DOC045"
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Docente Id": "DOC017"
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Docente Id": "DOC012"
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Docente Id": "DOC018"
+    },
+    {
+      "Reunion Id": "RTUT3",
+      "Docente Id": "DOC013"
+    }
+  ],
+  "Conciliacion": [
+    {
+      "Docente Id": "DOC005",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC005",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC005",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC005",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC005",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "R"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC006",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC010",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC010",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC010",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC017",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC017",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC017",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC017",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "R"
+    },
+    {
+      "Docente Id": "DOC020",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC020",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC020",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC020",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC023",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC023",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC023",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC023",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC023",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC028",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC028",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC028",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC028",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC030",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC031",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC031",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC031",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC031",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC031",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC034",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC034",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC034",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC034",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC034",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "R"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "R"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC037",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC039",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC039",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC039",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC039",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC056",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC056",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC056",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC056",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    }
+  ],
+  "Indisponibilidad": [
+    {
+      "Docente Id": "DOC002",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC002",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC002",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC002",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC003",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC003",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC003",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC003",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC004",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC004",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC004",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC004",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC007",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC007",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC007",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC007",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC013",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC015",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC015",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC015",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC015",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC018",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC019",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC019",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "R"
+    },
+    {
+      "Docente Id": "DOC019",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC019",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC019",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC022",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC022",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC022",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC022",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC026",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC027",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC027",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC027",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC027",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC032",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC032",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC032",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC032",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC033",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC033",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC033",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC033",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC042",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC042",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC042",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC042",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC044",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC044",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC044",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC044",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC045",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC045",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC045",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC045",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC050",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC050",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC050",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC050",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC051",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC051",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Docente Id": "DOC051",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC052",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC052",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC052",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Docente Id": "DOC052",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC053",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC054",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC054",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC054",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC054",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC055",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC055",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC055",
+      "Tipo Restriccion": "MEDIA",
+      "Dia": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC055",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Docente Id": "DOC058",
+      "Tipo Restriccion": "DURA",
+      "Dia": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Docente Id": "DOC058",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Docente Id": "DOC058",
+      "Tipo Restriccion": "BLANDA",
+      "Dia": "Viernes",
+      "Slot": "6"
+    }
+  ],
+  "Bloques": [
+    {
+      "Bloque Id": "B0001",
+      "Descripcion Paralelismo": "EF1"
+    },
+    {
+      "Bloque Id": "B0002",
+      "Descripcion Paralelismo": "REL1, ATED1"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Descripcion Paralelismo": "CyR, RFMT1, RING1, AJED1, RFLE1"
+    },
+    {
+      "Bloque Id": "B0004",
+      "Descripcion Paralelismo": "FR21, APY"
+    },
+    {
+      "Bloque Id": "B0005",
+      "Descripcion Paralelismo": "REL1, ATED1"
+    },
+    {
+      "Bloque Id": "B0006",
+      "Descripcion Paralelismo": "FR21, APY"
+    },
+    {
+      "Bloque Id": "B0007",
+      "Descripcion Paralelismo": "EF1"
+    },
+    {
+      "Bloque Id": "B0008",
+      "Descripcion Paralelismo": "FR21, APY"
+    },
+    {
+      "Bloque Id": "B0009",
+      "Descripcion Paralelismo": "FR21, APY"
+    },
+    {
+      "Bloque Id": "B0010",
+      "Descripcion Paralelismo": "REL2, VET2"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Descripcion Paralelismo": "FR22, CyR2, AJED2, OING2, LMC2"
+    },
+    {
+      "Bloque Id": "B0013",
+      "Descripcion Paralelismo": "REL2, VET2"
+    },
+    {
+      "Bloque Id": "B0023",
+      "Descripcion Paralelismo": "EPVA3"
+    },
+    {
+      "Bloque Id": "B0024",
+      "Descripcion Paralelismo": "EF3"
+    },
+    {
+      "Bloque Id": "B0025",
+      "Descripcion Paralelismo": "TEC3"
+    },
+    {
+      "Bloque Id": "B0026",
+      "Descripcion Paralelismo": "REL3, ATED3"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Descripcion Paralelismo": "OyD3, CyR3, TMAN3, FR23"
+    },
+    {
+      "Bloque Id": "B0028",
+      "Descripcion Paralelismo": "TUT3"
+    },
+    {
+      "Bloque Id": "B0029",
+      "Descripcion Paralelismo": "EPVA3"
+    },
+    {
+      "Bloque Id": "B0030",
+      "Descripcion Paralelismo": "EF3"
+    },
+    {
+      "Bloque Id": "B0031",
+      "Descripcion Paralelismo": "TEC3"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Descripcion Paralelismo": "REL3, ATED3"
+    },
+    {
+      "Bloque Id": "B0033",
+      "Descripcion Paralelismo": "TUT3"
+    },
+    {
+      "Bloque Id": "B0034",
+      "Descripcion Paralelismo": "ACM3"
+    },
+    {
+      "Bloque Id": "B0035",
+      "Descripcion Paralelismo": "AING3"
+    },
+    {
+      "Bloque Id": "B0036",
+      "Descripcion Paralelismo": "OPDIV"
+    },
+    {
+      "Bloque Id": "B0037",
+      "Descripcion Paralelismo": "TUOR3"
+    },
+    {
+      "Bloque Id": "B0038",
+      "Descripcion Paralelismo": "EPVA3"
+    },
+    {
+      "Bloque Id": "B0039",
+      "Descripcion Paralelismo": "EF3"
+    },
+    {
+      "Bloque Id": "B0040",
+      "Descripcion Paralelismo": "TEC3"
+    },
+    {
+      "Bloque Id": "B0041",
+      "Descripcion Paralelismo": "TUT3"
+    },
+    {
+      "Bloque Id": "B0042",
+      "Descripcion Paralelismo": "ASL3"
+    }
+  ],
+  "Miembros_Bloque": [
+    {
+      "Bloque Id": "B0001",
+      "Evento Id": "E0007"
+    },
+    {
+      "Bloque Id": "B0001",
+      "Evento Id": "E0008"
+    },
+    {
+      "Bloque Id": "B0002",
+      "Evento Id": "E0009"
+    },
+    {
+      "Bloque Id": "B0002",
+      "Evento Id": "E0010"
+    },
+    {
+      "Bloque Id": "B0002",
+      "Evento Id": "E0011"
+    },
+    {
+      "Bloque Id": "B0002",
+      "Evento Id": "E0012"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0013"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0014"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0015"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0016"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0017"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0018"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0019"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0020"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0021"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0022"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0023"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0024"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0025"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0026"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0027"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0028"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0029"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0030"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0031"
+    },
+    {
+      "Bloque Id": "B0003",
+      "Evento Id": "E0032"
+    },
+    {
+      "Bloque Id": "B0004",
+      "Evento Id": "E0033"
+    },
+    {
+      "Bloque Id": "B0004",
+      "Evento Id": "E0034"
+    },
+    {
+      "Bloque Id": "B0005",
+      "Evento Id": "E0042"
+    },
+    {
+      "Bloque Id": "B0005",
+      "Evento Id": "E0043"
+    },
+    {
+      "Bloque Id": "B0005",
+      "Evento Id": "E0044"
+    },
+    {
+      "Bloque Id": "B0005",
+      "Evento Id": "E0045"
+    },
+    {
+      "Bloque Id": "B0006",
+      "Evento Id": "E0046"
+    },
+    {
+      "Bloque Id": "B0006",
+      "Evento Id": "E0047"
+    },
+    {
+      "Bloque Id": "B0007",
+      "Evento Id": "E0055"
+    },
+    {
+      "Bloque Id": "B0007",
+      "Evento Id": "E0056"
+    },
+    {
+      "Bloque Id": "B0008",
+      "Evento Id": "E0057"
+    },
+    {
+      "Bloque Id": "B0008",
+      "Evento Id": "E0058"
+    },
+    {
+      "Bloque Id": "B0009",
+      "Evento Id": "E0066"
+    },
+    {
+      "Bloque Id": "B0009",
+      "Evento Id": "E0067"
+    },
+    {
+      "Bloque Id": "B0010",
+      "Evento Id": "E0077"
+    },
+    {
+      "Bloque Id": "B0010",
+      "Evento Id": "E0078"
+    },
+    {
+      "Bloque Id": "B0010",
+      "Evento Id": "E0080"
+    },
+    {
+      "Bloque Id": "B0010",
+      "Evento Id": "E0081"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0083"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0084"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0086"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0088"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0089"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0090"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0092"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0094"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0095"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0096"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0098"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0100"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0101"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0102"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0104"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0106"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0107"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0108"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0110"
+    },
+    {
+      "Bloque Id": "B0011",
+      "Evento Id": "E0112"
+    },
+    {
+      "Bloque Id": "B0012",
+      "Evento Id": "E0118"
+    },
+    {
+      "Bloque Id": "B0013",
+      "Evento Id": "E0123"
+    },
+    {
+      "Bloque Id": "B0013",
+      "Evento Id": "E0125"
+    },
+    {
+      "Bloque Id": "B0013",
+      "Evento Id": "E0126"
+    },
+    {
+      "Bloque Id": "B0013",
+      "Evento Id": "E0128"
+    },
+    {
+      "Bloque Id": "B0014",
+      "Evento Id": "E0129"
+    },
+    {
+      "Bloque Id": "B0020",
+      "Evento Id": "E0145"
+    },
+    {
+      "Bloque Id": "B0021",
+      "Evento Id": "E0149"
+    },
+    {
+      "Bloque Id": "B0022",
+      "Evento Id": "E0152"
+    },
+    {
+      "Bloque Id": "B0023",
+      "Evento Id": "E0170"
+    },
+    {
+      "Bloque Id": "B0023",
+      "Evento Id": "E0171"
+    },
+    {
+      "Bloque Id": "B0024",
+      "Evento Id": "E0172"
+    },
+    {
+      "Bloque Id": "B0024",
+      "Evento Id": "E0173"
+    },
+    {
+      "Bloque Id": "B0025",
+      "Evento Id": "E0174"
+    },
+    {
+      "Bloque Id": "B0025",
+      "Evento Id": "E0175"
+    },
+    {
+      "Bloque Id": "B0026",
+      "Evento Id": "E0176"
+    },
+    {
+      "Bloque Id": "B0026",
+      "Evento Id": "E0177"
+    },
+    {
+      "Bloque Id": "B0026",
+      "Evento Id": "E0178"
+    },
+    {
+      "Bloque Id": "B0026",
+      "Evento Id": "E0179"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0180"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0181"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0182"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0183"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0184"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0185"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0186"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0187"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0188"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0189"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0190"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0191"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0192"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0193"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0194"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0195"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0196"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0197"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0198"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0199"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0200"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0201"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0202"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0203"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0204"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0205"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0206"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0207"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0208"
+    },
+    {
+      "Bloque Id": "B0027",
+      "Evento Id": "E0209"
+    },
+    {
+      "Bloque Id": "B0028",
+      "Evento Id": "E0210"
+    },
+    {
+      "Bloque Id": "B0028",
+      "Evento Id": "E0211"
+    },
+    {
+      "Bloque Id": "B0029",
+      "Evento Id": "E0218"
+    },
+    {
+      "Bloque Id": "B0029",
+      "Evento Id": "E0219"
+    },
+    {
+      "Bloque Id": "B0030",
+      "Evento Id": "E0220"
+    },
+    {
+      "Bloque Id": "B0030",
+      "Evento Id": "E0221"
+    },
+    {
+      "Bloque Id": "B0031",
+      "Evento Id": "E0222"
+    },
+    {
+      "Bloque Id": "B0031",
+      "Evento Id": "E0223"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0224"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0225"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0226"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0227"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0228"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0229"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0230"
+    },
+    {
+      "Bloque Id": "B0032",
+      "Evento Id": "E0231"
+    },
+    {
+      "Bloque Id": "B0033",
+      "Evento Id": "E0232"
+    },
+    {
+      "Bloque Id": "B0033",
+      "Evento Id": "E0233"
+    },
+    {
+      "Bloque Id": "B0034",
+      "Evento Id": "E0234"
+    },
+    {
+      "Bloque Id": "B0034",
+      "Evento Id": "E0235"
+    },
+    {
+      "Bloque Id": "B0034",
+      "Evento Id": "E0236"
+    },
+    {
+      "Bloque Id": "B0035",
+      "Evento Id": "E0237"
+    },
+    {
+      "Bloque Id": "B0035",
+      "Evento Id": "E0238"
+    },
+    {
+      "Bloque Id": "B0035",
+      "Evento Id": "E0239"
+    },
+    {
+      "Bloque Id": "B0036",
+      "Evento Id": "E0240"
+    },
+    {
+      "Bloque Id": "B0036",
+      "Evento Id": "E0241"
+    },
+    {
+      "Bloque Id": "B0036",
+      "Evento Id": "E0242"
+    },
+    {
+      "Bloque Id": "B0037",
+      "Evento Id": "E0243"
+    },
+    {
+      "Bloque Id": "B0037",
+      "Evento Id": "E0244"
+    },
+    {
+      "Bloque Id": "B0037",
+      "Evento Id": "E0245"
+    },
+    {
+      "Bloque Id": "B0038",
+      "Evento Id": "E0252"
+    },
+    {
+      "Bloque Id": "B0038",
+      "Evento Id": "E0253"
+    },
+    {
+      "Bloque Id": "B0039",
+      "Evento Id": "E0254"
+    },
+    {
+      "Bloque Id": "B0039",
+      "Evento Id": "E0255"
+    },
+    {
+      "Bloque Id": "B0040",
+      "Evento Id": "E0256"
+    },
+    {
+      "Bloque Id": "B0040",
+      "Evento Id": "E0257"
+    },
+    {
+      "Bloque Id": "B0041",
+      "Evento Id": "E0258"
+    },
+    {
+      "Bloque Id": "B0041",
+      "Evento Id": "E0259"
+    },
+    {
+      "Bloque Id": "B0042",
+      "Evento Id": "E0260"
+    },
+    {
+      "Bloque Id": "B0042",
+      "Evento Id": "E0261"
+    },
+    {
+      "Bloque Id": "B0042",
+      "Evento Id": "E0262"
+    },
+    {
+      "Bloque Id": "B0054",
+      "Evento Id": "E0320"
+    },
+    {
+      "Bloque Id": "B0060",
+      "Evento Id": "E0363"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Eventos": [
+    {
+      "Evento Id": "E0001",
+      "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0001",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0002",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0003",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0004",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    }
+  ],
+  "Reuniones": [
+    {
+      "Reunion Id": "REU01",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    }
+  ],
+  "Guardias": [
+    {
+      "Tipo guardia": "Convivencia",
+      "Profesor Id": "DOC002",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC003",
+      "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC001",
+      "Dia semana": "Martes",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC002",
+      "Dia semana": "Lunes",
+      "Slot": "R"
+    }
+  ]
+}
