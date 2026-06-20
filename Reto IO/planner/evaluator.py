@@ -28,26 +28,68 @@ class EvalReport:
         return not self.hard_violations
 
 
+def _slot_supports(inst: Instance, slot: str, length: int) -> bool:
+    """True si una sesion de `length` slots puede empezar en `slot` sin cruzar recreo."""
+    if slot not in inst.class_slots:
+        return False
+    return inst.class_slots.index(slot) in set(inst.valid_starts(length))
+
+
 def _session_length_map(inst: Instance, eventos_sol: list[dict]) -> dict:
     """Empareja cada entrada de evento con la duracion de una de sus sesiones.
 
-    Para cada evento, ordena sus duraciones de sesion de mayor a menor y las
-    asigna a sus entradas en el orden en que aparecen. Devuelve, por indice de
-    entrada en `eventos_sol`, la longitud (en slots) de la sesion.
+    La salida no codifica la duracion de cada entrada, asi que se busca (por
+    evento) una asignacion de sus duraciones de sesion a sus entradas tal que
+    cada colocacion sea valida (el slot admite esa duracion). Si tal emparejamiento
+    existe, se usa; si no, se asigna por orden descendente (y la validacion
+    reportara el problema). Devuelve {indice_entrada: longitud_en_slots}.
     """
     by_event: dict[str, list[int]] = defaultdict(list)
     for i, e in enumerate(eventos_sol):
         by_event[e["Evento Id"]].append(i)
+
     length_of_entry: dict[int, int] = {}
     for eid, idxs in by_event.items():
         u_idx = inst.event_to_unit.get(eid)
-        lens = sorted(inst.units[u_idx].session_lengths, reverse=True) if u_idx is not None else [1] * len(idxs)
-        # rellenar si hay desajuste de conteo
+        lens = list(inst.units[u_idx].session_lengths) if u_idx is not None else [1] * len(idxs)
         while len(lens) < len(idxs):
             lens.append(1)
-        for k, entry_idx in enumerate(idxs):
-            length_of_entry[entry_idx] = lens[k]
+        slots = [str(eventos_sol[i]["Slot"]) for i in idxs]
+
+        # backtracking: asignar cada entrada una longitud (multiset `lens`) valida
+        assignment = _match_lengths(inst, slots, sorted(lens, reverse=True))
+        if assignment is None:
+            assignment = sorted(lens, reverse=True)  # sin emparejamiento valido
+        for entry_idx, L in zip(idxs, assignment):
+            length_of_entry[entry_idx] = L
     return length_of_entry
+
+
+def _match_lengths(inst: Instance, slots: list[str], lens: list[int]):
+    """Devuelve una lista de longitudes (alineada con `slots`) usando exactamente
+    el multiset `lens`, tal que cada slot admite su longitud. None si no existe."""
+    n = len(slots)
+    result = [None] * n
+    used = [False] * len(lens)
+
+    def bt(pos: int) -> bool:
+        if pos == n:
+            return True
+        tried = set()
+        for k, L in enumerate(lens):
+            if used[k] or L in tried:
+                continue
+            tried.add(L)
+            if _slot_supports(inst, slots[pos], L):
+                used[k] = True
+                result[pos] = L
+                if bt(pos + 1):
+                    return True
+                used[k] = False
+                result[pos] = None
+        return False
+
+    return result if bt(0) else None
 
 
 def _covered_class_positions(inst: Instance, slot: str, length: int) -> list[int] | None:

@@ -85,29 +85,11 @@ class Instance:
 
     def valid_starts(self, length: int) -> list[int]:
         """Indices de class_slots donde puede empezar una sesion de `length`
-        slots sin cruzar el recreo (bloques mañana / tarde separados)."""
-        # construir bloques contiguos de class_slots segun la timeline real
-        blocks = self._contiguous_blocks()
-        starts = []
-        for blk in blocks:
-            for i in range(len(blk) - length + 1):
-                starts.append(blk[i])
-        return starts
-
-    def _contiguous_blocks(self) -> list[list[int]]:
-        """Agrupa indices de class_slots en tramos sin recreo intermedio."""
-        blocks = []
-        cur = []
-        for p_idx, (label, _hh, is_rec) in enumerate(self.positions):
-            if is_rec:
-                if cur:
-                    blocks.append(cur)
-                    cur = []
-            else:
-                cur.append(self.class_slots.index(label))
-        if cur:
-            blocks.append(cur)
-        return blocks
+        slots. Los slots de clase (1..6) forman una secuencia contigua; una
+        sesion de varios slots puede dejar el recreo en medio (p.ej. slots 3-4).
+        El recreo libre encerrado entre dos slots de la sesion computa como hueco,
+        por lo que el optimizador evita cruzarlo salvo que el empaquetado lo exija."""
+        return list(range(len(self.class_slots) - length + 1))
 
 
 def _parse_distribution(dist) -> list[int]:

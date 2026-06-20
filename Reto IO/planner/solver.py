@@ -28,7 +28,7 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
     # asigna aulas); ademas los datos contienen aulas comodin reutilizadas por
     # varios grupos, lo que haria el modelo infactible.
     EN = {"guardias": True, "reuniones": True, "minmax": True,
-          "nocoincidir": True, "aula": False, "grupo": True}
+          "nocoincidir": True, "aula": False, "grupo": True, "dura": True}
     if enable:
         EN.update(enable)
     m = cp_model.CpModel()
@@ -56,19 +56,20 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
                     covered = [inst.pos_index[inst.class_slots[cs + k]] for k in range(L)]
                     # prohibir por DURA de docente o de evento
                     ok = True
-                    for p in covered:
-                        for t in u.teachers:
-                            if teacher_forbidden_at(t, d, p):
-                                ok = False
+                    if EN["dura"]:
+                        for p in covered:
+                            for t in u.teachers:
+                                if teacher_forbidden_at(t, d, p):
+                                    ok = False
+                                    break
+                            if not ok:
                                 break
-                        if not ok:
-                            break
-                    if ok:
-                        start_label = inst.class_slots[cs]
-                        for eid in u.event_ids:
-                            if (eid, d, start_label) in inst.event_forbidden:
-                                ok = False
-                                break
+                        if ok:
+                            start_label = inst.class_slots[cs]
+                            for eid in u.event_ids:
+                                if (eid, d, start_label) in inst.event_forbidden:
+                                    ok = False
+                                    break
                     if not ok:
                         continue
                     var = m.NewBoolVar(f"x_u{u.idx}_s{s}_{d}_{cs}")
@@ -156,13 +157,14 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
             m.Add(sum(vs) == need)
         elif need > 0:
             raise RuntimeError(f"Demanda guardia {tipo} {d} {slabel} sin candidatos")
-    # cupo semanal exacto
+    # cupo semanal por docente como MAXIMO (la demanda por slot es la obligatoria).
+    # En los datos la demanda total puede ser < cupo total (p.ej. Pasillo 111 vs 112),
+    # por lo que forzar igualdad en ambos seria infactible. Cuando demanda==cupo
+    # (Convivencia, Recreo) el <= se vuelve igualdad de forma automatica.
     for (doc, tipo), quota in (inst.guard_quota.items() if EN["guardias"] else []):
         vs = [g[k] for k in g if k[0] == doc and k[3] == tipo]
         if vs:
-            m.Add(sum(vs) == quota)
-        elif quota > 0:
-            raise RuntimeError(f"Cupo guardia {tipo} de {doc} sin candidatos")
+            m.Add(sum(vs) <= quota)
 
     # ---------- ocupacion por docente / grupo / aula ----------
     # mapear unidades por docente y grupo
