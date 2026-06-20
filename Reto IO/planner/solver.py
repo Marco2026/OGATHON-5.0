@@ -18,7 +18,9 @@ from .instance import Instance, GUARD_TYPES
 
 def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
           log: bool = False, enable: dict | None = None,
-          optimize: bool = True, hint: dict | None = None) -> tuple[dict, dict]:
+          optimize: bool = True, hint: dict | None = None,
+          fix_solution: dict | None = None,
+          free_teachers: set | None = None) -> tuple[dict, dict]:
     """Resuelve la instancia. Devuelve (solucion_dict, info).
 
     `enable` permite desactivar grupos de restricciones para diagnostico:
@@ -297,6 +299,14 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
     if hint:
         _apply_hint(m, inst, hint, x, y, g)
 
+    # ---------- LNS: fijar el complemento del vecindario ----------
+    # Fija a su valor actual toda actividad que NO involucre a `free_teachers`,
+    # dejando libres solo los horarios de esos docentes para re-optimizarlos.
+    if fix_solution is not None and free_teachers == "DAYS":
+        _fix_days(m, inst, fix_solution, x, y, g)
+    elif fix_solution is not None and free_teachers is not None:
+        _fix_complement(m, inst, fix_solution, free_teachers, x, y, g)
+
     # ---------- resolver ----------
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = float(time_limit)
@@ -335,6 +345,170 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
                 "Tipo guardia": tipo, "Profesor Id": doc,
                 "Dia semana": d, "Slot": slabel})
     return sol, info
+
+
+def lns_improve(inst: Instance, sol: dict, total_time: float, workers: int = 12,
+                k: int = 8, iter_time: float = 20.0, seed: int = 0,
+                verbose: bool = True) -> tuple[dict, float]:
+    """Mejora una solucion factible mediante LNS dirigida: en cada iteracion
+    libera los horarios de un vecindario de docentes (un docente con muchos huecos
+    y los que comparten grupo con el) y deja que CP-SAT los re-optimice fijando el
+    resto. Conserva la mejor solucion factible encontrada."""
+    import time
+    from .evaluator import evaluate
+
+    rep = evaluate(inst, sol)
+    best, best_h = sol, rep.huecos
+    if not rep.feasible:
+        return best, best_h
+
+    # adyacencia docente-docente por grupos compartidos
+    group_teachers: dict[str, set] = {}
+    for u in inst.units:
+        for grp in u.groups:
+            group_teachers.setdefault(grp, set()).update(u.teachers)
+    adj: dict[str, set] = {t: set() for t in inst.docentes}
+    for grp, ts in group_teachers.items():
+        for t in ts:
+            adj[t].update(ts)
+
+    rng_state = seed
+    def rnd(n):
+        nonlocal rng_state
+        rng_state = (rng_state * 1103515245 + 12345) & 0x7fffffff
+        return rng_state % n
+
+    t0 = time.time()
+    it = 0
+    while time.time() - t0 < total_time:
+        it += 1
+        hp = evaluate(inst, best).huecos_por_docente
+        ranked = sorted(inst.docentes, key=lambda t: -hp.get(t, 0.0))
+        # semilla entre los de mas huecos (con algo de aleatoriedad)
+        seed_t = ranked[rnd(min(10, len(ranked)))]
+        nbrs = list(adj[seed_t])
+        # vecindario: semilla + vecinos con mas huecos, hasta k
+        nbrs.sort(key=lambda t: -hp.get(t, 0.0))
+        free = set([seed_t] + nbrs[:max(0, k - 1)])
+        remaining = total_time - (time.time() - t0)
+        it_t = min(iter_time, remaining)
+        if it_t < 3:
+            break
+        sol2, info = solve(inst, time_limit=it_t, workers=workers, optimize=True,
+                           hint=best, fix_solution=best, free_teachers=free)
+        r2 = evaluate(inst, sol2)
+        if r2.feasible and r2.huecos < best_h - 1e-9:
+            if verbose:
+                print(f"    LNS it{it}: {best_h} -> {r2.huecos} (semilla {seed_t}, |N|={len(free)})")
+            best, best_h = sol2, r2.huecos
+    return best, best_h
+
+
+def _fix_days(m, inst: Instance, sol: dict, x, y, g) -> None:
+    """Fija la asignacion de DIA de cada actividad (sesiones, reuniones, guardias)
+    a la de `sol`, dejando libre solo el SLOT dentro de ese dia. Como los huecos se
+    computan por dia, esto re-optimiza la distribucion intradia (subproblema mucho
+    mas facil que la asignacion conjunta dia+slot)."""
+    from collections import defaultdict
+    # dias de cada sesion por unidad (por orden de distribucion)
+    unit_slots: dict[int, list[tuple[str, str]]] = defaultdict(list)
+    for e in sol.get("Eventos", []):
+        u_idx = inst.event_to_unit.get(e["Evento Id"])
+        if u_idx is None:
+            continue
+        if e["Evento Id"] != inst.units[u_idx].event_ids[0]:
+            continue
+        unit_slots[u_idx].append((e["Dia semana"], str(e["Slot"])))
+
+    for u in inst.units:
+        lens = list(u.session_lengths)
+        used = [False] * len(lens)
+        for (d, slot) in unit_slots.get(u.idx, []):
+            if slot not in inst.class_slots:
+                continue
+            cs = inst.class_slots.index(slot)
+            for k, L in enumerate(lens):
+                if used[k]:
+                    continue
+                if cs in set(inst.valid_starts(L)):
+                    # mantener sesion k en el dia d, slot libre
+                    same_day = [v for (dd, cc), v in x[(u.idx, k)].items() if dd == d]
+                    if same_day:
+                        m.Add(sum(same_day) == 1)
+                        used[k] = True
+                    break
+
+    # reuniones: mantener dia, slot libre
+    cur_reu = defaultdict(list)
+    for r in sol.get("Reuniones", []):
+        cur_reu[r["Reunion Id"]].append(r["Dia semana"])
+    for rid, dias in cur_reu.items():
+        for d in dias:
+            same_day = [v for (dd, cc), v in y.get(rid, {}).items() if dd == d]
+            if same_day:
+                m.Add(sum(same_day) == 1)
+
+    # guardias: mantener (docente, dia, tipo) y su numero ese dia; slot libre
+    cnt = defaultdict(int)   # (doc, dia, tipo) -> nº ese dia
+    for gd in sol.get("Guardias", []):
+        cnt[(gd["Profesor Id"], gd["Dia semana"], gd["Tipo guardia"])] += 1
+    by_ddt = defaultdict(list)
+    for key, var in g.items():
+        doc, d, slot, tipo = key
+        by_ddt[(doc, d, tipo)].append(var)
+    for (doc, d, tipo), vars_ in by_ddt.items():
+        m.Add(sum(vars_) == cnt.get((doc, d, tipo), 0))
+
+
+def _fix_complement(m, inst: Instance, sol: dict, free_teachers: set, x, y, g) -> None:
+    """Fija a su valor actual toda actividad que no involucre a `free_teachers`."""
+    from collections import defaultdict
+    # placements por unidad desde la solucion (miembros comparten colocacion)
+    unit_slots: dict[int, list[tuple[str, str]]] = defaultdict(list)
+    for e in sol.get("Eventos", []):
+        u_idx = inst.event_to_unit.get(e["Evento Id"])
+        if u_idx is None:
+            continue
+        if e["Evento Id"] != inst.units[u_idx].event_ids[0]:
+            continue
+        unit_slots[u_idx].append((e["Dia semana"], str(e["Slot"])))
+
+    for u in inst.units:
+        if u.teachers & free_teachers:
+            continue  # vecindario: libre
+        lens = list(u.session_lengths)
+        used = [False] * len(lens)
+        for (d, slot) in unit_slots.get(u.idx, []):
+            if slot not in inst.class_slots:
+                continue
+            cs = inst.class_slots.index(slot)
+            for k, L in enumerate(lens):
+                if used[k]:
+                    continue
+                if cs in set(inst.valid_starts(L)) and (d, cs) in x.get((u.idx, k), {}):
+                    m.Add(x[(u.idx, k)][(d, cs)] == 1)
+                    used[k] = True
+                    break
+
+    # reuniones: libres si algun participante esta en el vecindario
+    cur_reu = {(r["Reunion Id"], r["Dia semana"], str(r["Slot"])) for r in sol.get("Reuniones", [])}
+    for rid, info in inst.reuniones.items():
+        if set(info["participantes"]) & free_teachers:
+            continue
+        for (d, slot) in [(rd, rs) for (ri, rd, rs) in cur_reu if ri == rid]:
+            if slot in inst.class_slots:
+                cs = inst.class_slots.index(slot)
+                if (d, cs) in y.get(rid, {}):
+                    m.Add(y[rid][(d, cs)] == 1)
+
+    # guardias: fijar todas las de docentes fuera del vecindario
+    cur_g = {(gd["Profesor Id"], gd["Dia semana"], str(gd["Slot"]), gd["Tipo guardia"])
+             for gd in sol.get("Guardias", [])}
+    for key, var in g.items():
+        doc = key[0]
+        if doc in free_teachers:
+            continue
+        m.Add(var == (1 if key in cur_g else 0))
 
 
 def _apply_hint(m, inst: Instance, hint: dict, x, y, g) -> None:

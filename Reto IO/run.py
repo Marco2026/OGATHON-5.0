@@ -34,30 +34,43 @@ def run_one(path: str, time_limit: float, workers: int, log: bool = False) -> di
     print(f"  unidades={len(inst.units)} docentes={len(inst.docentes)} "
           f"reuniones={len(inst.reuniones)} guardias_demanda={sum(inst.guard_demand.values())}")
 
+    best_sol, best_rep, best_info = None, None, None
+
+    def consider(tag, sol, info):
+        nonlocal best_sol, best_rep, best_info
+        rep = evaluate(inst, sol)
+        print(f"  [{tag:7}] status={info['status']} obj={info['objective']} "
+              f"cota={info['best_bound']} t={info['wall_time']:.1f}s "
+              f"HUECOS={rep.huecos} factible={rep.feasible} viol={len(rep.hard_violations)}")
+        if rep.feasible and (best_rep is None or rep.huecos < best_rep.huecos):
+            best_sol, best_rep, best_info = sol, rep, info
+        elif best_sol is None:
+            best_sol, best_rep, best_info = sol, rep, info
+
     # Fase 1: factibilidad pura (rapida, sin objetivo de huecos)
-    t_feas = min(max(20.0, time_limit * 0.25), 90.0)
+    t_feas = min(max(20.0, time_limit * 0.20), 60.0)
     sol_f, info_f = solve(inst, time_limit=t_feas, workers=workers, optimize=False)
-    rep_f = evaluate(inst, sol_f)
-    print(f"  [factib] status={info_f['status']} t={info_f['wall_time']:.1f}s "
-          f"HUECOS={rep_f.huecos} factible={rep_f.feasible} viol={len(rep_f.hard_violations)}")
+    consider("factib", sol_f, info_f)
 
-    # Fase 2: optimizar huecos usando la solucion factible como pista
-    sol_o, info_o = solve(inst, time_limit=time_limit, workers=workers, log=log,
-                          optimize=True, hint=sol_f if rep_f.feasible else None)
-    rep_o = evaluate(inst, sol_o)
-    print(f"  [optim ] status={info_o['status']} objetivo={info_o['objective']} "
-          f"cota={info_o['best_bound']} t={info_o['wall_time']:.1f}s "
-          f"HUECOS={rep_o.huecos} factible={rep_o.feasible} viol={len(rep_o.hard_violations)}")
+    # Fase 2: optimizacion conjunta (dia+slot) con pista
+    hint = best_sol if best_rep and best_rep.feasible else None
+    sol_o, info_o = solve(inst, time_limit=time_limit * 0.5, workers=workers, log=log,
+                          optimize=True, hint=hint)
+    consider("conjunt", sol_o, info_o)
 
-    # elegir la mejor solucion factible (menos huecos); si ninguna es factible,
-    # quedarse con la de optimizacion
-    cands = [(rep_o, sol_o, info_o), (rep_f, sol_f, info_f)]
-    feas = [(r, s, i) for r, s, i in cands if r.feasible]
-    if feas:
-        rep, sol, info = min(feas, key=lambda c: c[0].huecos)
-    else:
-        rep, sol, info = cands[0]
+    # Fases 3+: alternar compactacion intradia <-> conjunta (rondas)
+    rounds = 3
+    for rd in range(rounds):
+        if best_rep and best_rep.feasible:
+            sol_d, info_d = solve(inst, time_limit=time_limit * 0.5 / rounds,
+                                  workers=workers, optimize=True, hint=best_sol,
+                                  fix_solution=best_sol, free_teachers="DAYS")
+            consider(f"intra{rd+1}", sol_d, info_d)
+            sol_j, info_j = solve(inst, time_limit=time_limit * 0.5 / rounds,
+                                  workers=workers, optimize=True, hint=best_sol)
+            consider(f"conj{rd+1}", sol_j, info_j)
 
+    rep, sol, info = best_rep, best_sol, best_info
     print(f"  >> ELEGIDA: HUECOS={rep.huecos} factible={rep.feasible} "
           f"violaciones={len(rep.hard_violations)}")
     for v in rep.hard_violations[:15]:
