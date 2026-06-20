@@ -241,11 +241,11 @@ def evaluate(inst: Instance, solution: dict) -> EvalReport:
         got = demand_count.get((dia, slot, tipo), 0)
         if got != need:
             V.append(f"Demanda guardia {tipo} {dia} {slot}: requeridas {need}, asignadas {got}")
-    # cupo semanal por docente
-    for (doc, tipo), need in inst.guard_quota.items():
+    # cupo semanal por docente: es un maximo (la demanda por slot es la obligatoria)
+    for (doc, tipo), cap in inst.guard_quota.items():
         got = guard_count.get((doc, tipo), 0)
-        if got != need:
-            V.append(f"Cupo guardia {tipo} de {doc}: requeridas {need}, asignadas {got}")
+        if got > cap:
+            V.append(f"Cupo guardia {tipo} de {doc}: maximo {cap}, asignadas {got}")
 
     # ---------- COBERTURA EVENTOS ----------
     for eid, u_idx in inst.event_to_unit.items():
