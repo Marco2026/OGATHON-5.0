@@ -1,0 +1,277 @@
+Sí. El algoritmo de evaluación no utiliza ningún método de optimización; simplemente **valida restricciones y calcula una función objetivo basada en huecos**. El optimizador real está en `solver.py` y es un modelo de **CP-SAT de OR-Tools** (programación por restricciones con SAT). El evaluador es el "árbitro" que comprueba si la solución cumple las reglas y mide su calidad.
+
+## Cómo evalúa los huecos
+
+En `evaluate()`:
+
+1. Construye para cada `(docente, día)` el conjunto de posiciones ocupadas:
+
+   * clases (`Eventos`)
+   * reuniones
+   * guardias
+
+2. Busca la primera y la última posición ocupada.
+
+3. Todo lo que quede vacío entre ambas cuenta como hueco.
+
+4. La duración de cada posición viene de `inst.positions[p][1]`, que está en medias horas.
+
+5. Al final:
+
+```python
+rep.huecos = total / 2.0
+```
+
+por lo que el resultado se expresa en horas.
+
+Es básicamente:
+
+[
+\text{Huecos} =
+\sum_{docente,dia}
+\sum_{p=\min}^{\max}
+\mathbf{1}_{vacío}(p)\cdot duración(p)
+]
+
+---
+
+# Fallo importante detectado
+
+Hay una inconsistencia muy seria entre el comentario y la implementación respecto al recreo.
+
+En `instance.py`:
+
+```python
+def valid_starts(self, length: int) -> list[int]:
+    """
+    una sesion de varios slots puede dejar el recreo en medio
+    """
+    return list(range(len(self.class_slots) - length + 1))
+```
+
+Esto permite:
+
+```
+slot 3 + slot 4
+```
+
+aunque entre ellos exista un recreo.
+
+Sin embargo en `evaluator.py` aparece:
+
+```python
+def _slot_supports(...):
+    """True si una sesion puede empezar en slot sin cruzar recreo."""
+```
+
+y también:
+
+```python
+_c​overed_class_positions(...)
+"""None si no cabe o cruza recreo"""
+```
+
+Pero realmente **no comprueba nada del recreo**.
+
+Ejemplo:
+
+```
+1
+2
+3
+R
+4
+5
+6
+```
+
+Una sesión de duración 2 empezando en 3 ocupará:
+
+```
+3 y 4
+```
+
+aunque haya un recreo entre medias.
+
+Por tanto:
+
+* el comentario dice "sin cruzar recreo"
+* el código sí permite cruzarlo
+* el solver también permite cruzarlo
+
+La documentación y la implementación no coinciden.
+
+---
+
+# Posible error en No_Coincidir
+
+Aquí:
+
+```python
+event_placements[eid].append((dia, slot))
+```
+
+y luego:
+
+```python
+inter = pa & pb
+```
+
+Solo compara:
+
+```python
+(dia, slot_inicial)
+```
+
+No compara toda la ocupación temporal.
+
+Ejemplo:
+
+Evento A (2 slots)
+
+```
+Lunes slot 2
+=> ocupa 2 y 3
+```
+
+Evento B (1 slot)
+
+```
+Lunes slot 3
+=> ocupa 3
+```
+
+No coinciden en el mismo slot inicial:
+
+```python
+(Lunes,2) != (Lunes,3)
+```
+
+por tanto:
+
+```python
+inter = {}
+```
+
+y el evaluador considera que NO violan `No_Coincidir`.
+
+Sin embargo temporalmente sí se solapan.
+
+Esto sólo es correcto si el significado de `No_Coincidir` es:
+
+> "no pueden empezar a la vez"
+
+y normalmente no suele ser eso.
+
+Yo lo consideraría un bug conceptual.
+
+---
+
+# Posible problema con bloques paralelos
+
+La comprobación:
+
+```python
+placements = [sorted(event_placements.get(e, []))
+              for e in u.event_ids]
+```
+
+y luego:
+
+```python
+if pl != ref:
+```
+
+también compara únicamente:
+
+```python
+(dia, slot_inicio)
+```
+
+No verifica que la duración efectiva ocupada sea la misma.
+
+Si por algún motivo hubiese una asignación errónea de duraciones en `_session_length_map()`, dos eventos podrían aparecer paralelos aunque la ocupación real no fuese idéntica.
+
+---
+
+# Posible bug en el cálculo de huecos del solver
+
+En `solver.py` el objetivo se modela mediante:
+
+```python
+hb >= bb
+ha >= aa
+gap >= hb + ha - bexpr[p] - 1
+```
+
+Pero faltan las restricciones opuestas:
+
+```python
+hb <= sum(before)
+ha <= sum(after)
+```
+
+o alguna formulación equivalente.
+
+Así:
+
+```python
+hb = 1
+ha = 1
+```
+
+pueden activarse aunque no exista actividad antes o después.
+
+CP-SAT normalmente minimizará el objetivo y tenderá a ponerlos a 0, pero la formulación es débil y puede producir una relajación muy mala.
+
+No siempre dará un resultado incorrecto, pero sí un modelo más flojo de lo necesario.
+
+De los fallos encontrados, este es el que más me preocuparía desde el punto de vista de optimización.
+
+---
+
+# Otro detalle
+
+En el evaluador:
+
+```python
+teacher_act[(t,d,p)].add(bkey)
+```
+
+donde
+
+```python
+bkey = u.block_id or f"ev_{eid}"
+```
+
+Si dos eventos distintos pertenecen al mismo bloque:
+
+```python
+teacher_act[(t,d,p)]
+```
+
+solo contiene una clave.
+
+Eso significa que:
+
+* varios eventos paralelos del mismo bloque cuentan como una única actividad docente.
+
+Esto es correcto si los bloques representan desdobles simultáneos del mismo profesor, pero sería incorrecto si un mismo docente pudiera aparecer dos veces dentro del mismo bloque.
+
+Probablemente no ocurre en los datos, pero la validación lo presupone.
+
+---
+
+## Resumen
+
+Los dos puntos que revisaría primero son:
+
+1. **`No_Coincidir` sólo compara el slot inicial y no el intervalo ocupado completo.**
+
+   * Muy probable bug.
+
+2. **La formulación de huecos en CP-SAT es débil/incompleta.**
+
+   * Puede degradar bastante la calidad de la optimización.
+
+Y además existe una inconsistencia clara entre comentarios y código respecto a si una sesión puede o no cruzar el recreo.
