@@ -1,0 +1,60 @@
+Planificador de horarios
+El problema consiste en generar el horario semanal de un instituto de ESO, Bachillerato y FP, asignando clases, guardias y reuniones a una rejilla fija de franjas horarias de mañana. El horario debe ser completamente factible, respetando las disponibilidades de docentes, grupos y aulas, así como los paralelismos e incompatibilidades necesarias, y además debe buscar una buena calidad organizativa para el profesorado.
+
+1
+Entidades involucradas (Ver ejemplos en los documentos PDF de la Sección 3. Datos)
+Slots: franjas temporales sobre las que se construye el horario. En este caso hay 6 sesiones lectivas diarias de 1 hora, de lunes a viernes, con un recreo intermedio de 30 minutos.
+Asignaturas: materias que deben impartirse. Cada asignatura tiene un número conocido de sesiones con su correspondiente duración (en minutos).
+Profesores: docentes que imparten asignaturas y también pueden tener asignadas guardias y/o reuniones.
+Aulas: espacios donde se desarrollan los eventos.
+Grupos: conjuntos de alumnos para los que se genera el horario.
+Eventos: unidades básicas de docencia a planificar. Cada evento asocia una asignatura, un profesor, un grupo y un aula.
+Guardias: actividades no lectivas del profesorado que también ocupan franjas del horario. Incluyen guardias de pasillo, recreo y convivencia.
+Reuniones: actividades colectivas del profesorado que deben incorporarse al horario.
+Actividades: conjunto formado por eventos, guardias y reuniones, es decir, todo lo que puede ocupar una franja horaria.
+Bloques: agrupaciones de eventos que deben programarse en paralelo. Se usan para modelar desdobles, optativas simultáneas o sesiones compartidas por alumnado de varios grupos.
+Huecos: slots sin actividad situados entre dos actividades consecutivas de un mismo profesor en un mismo día.
+Por ejemplo, siendo actividad una clase, una guardia o una reunión:
+Si ocurriese actividad-hueco 1h- actividad, se computaría 1 hueco.
+Si ocurriese actividad-hueco 1h-hueco 1h – guardia recreo, se computarían 2 huecos. Al igual que el orden inverso: guardia recreo - hueco 1h-hueco 1h –actividad.
+Si ocurriese actividad-hueco 0,5h- actividad, se computaría 0,5 huecos.
+Si ocurriese actividad-hueco 1h- hueco de 0,5 h - actividad, se computaría 1,5 huecos.
+No computan huecos los slots que no están “encerrados” entre dos actividades.
+Tu misión: El objetivo es minimizar la suma total de huecos en la jornada del profesorado. Es decir, aquellos tiempos libres que tienen los profesores entre dos actividades de un mismo día.
+
+Reto IO
+2
+Restricciones del problema
+Todas las actividades deben quedar programadas en alguno de los slots disponibles. En los recreos solamente pueden planificarse las guardias de recreo.
+Los eventos no pueden solaparse en un mismo slot, salvo en dos casos:
+Cuando los eventos pertenecen al mismo bloque y, por tanto, deben planificarse en paralelo.
+Cuando se utiliza un aula que admite uso compartido, respetando su capacidad máxima.
+La combinación profesor-asignatura-grupo-aula de cada evento se considera fija y no puede modificarse.
+En el Gimnasio puede haber 2 profesores a la vez. Nota: existe aula denominada “Sin asignar o sin aula” usada como aula comodín por el centro. Como el algoritmo no tiene que asignar aulas, no es un dato clave. Lo comentamos solo para vuestro conocimiento.
+Cada docente debe respetar su mínimo y máximo diario de horas de clase, sin contar guardias ni reuniones. Nota: un profesor puede impartir una misma asignatura a varios grupos de alumnos a la vez, pero esto cuenta como una única sesión de clase. Ocurre por ejemplo cuando se unen varios alumnos de 1º ESO Grupo A con varios alumnos de 1º ESO Grupo B para una misma asignatura. Al profesor no le cuenta doble, sino como una clase normal.
+La distribución semanal de cada asignatura determina el número de sesiones que deben programarse y la duración de cada una, además, solo puede planificarse una sesión al día de una misma actividad.
+Deben cubrirse las guardias exigidas en cada slot y también las guardias semanales asignadas a cada docente.
+Cada reunión debe programarse en un slot compatible con todos sus participantes, de modo que todos ellos puedan asistir. Además, las reuniones no pueden planificarse durante el recreo.
+Se les permite a los docentes clasificar sus indisponibilidades (o preferencias) horarias según 3 niveles: DURA, MEDIA o BLANDA. Las soluciones que propongáis deben cumplir obligatoriamente las tipo "DURA"
+Los pares de eventos definidos como incompatibles en la relación “No_Coincidir” no pueden programarse en el mismo slot.
+3
+Datos
+Formato de entrada:
+Descargar formato de entrada
+
+Formato de salida:
+NOTA IMPORTANTE: Los ficheros de salida se deben llamar exactamente igual que los de entrada. Es decir, si estás solucionando la instancia ejemplo.json, la salida debe llamarse ejemplo.json
+
+Descargar formato de salida
+
+Descargar fichero ejemplo de salida
+
+Dataset
+Descarga el conjunto de datos para resolver este desafío:
+
+Descargar dataset
+Envía tu solución
+Sube tu archivo ZIP con las soluciones para cada instancia:
+
+Ningún archivo seleccionado
+Enviar solución
