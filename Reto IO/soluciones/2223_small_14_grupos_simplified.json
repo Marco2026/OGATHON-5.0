@@ -2,13 +2,13 @@
   "Eventos": [
     {
       "Evento Id": "E0007",
-      "Dia semana": "Viernes",
-      "Slot": "2"
+      "Dia semana": "Miercoles",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0008",
-      "Dia semana": "Viernes",
-      "Slot": "2"
+      "Dia semana": "Miercoles",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0007",
@@ -22,612 +22,612 @@
     },
     {
       "Evento Id": "E0007",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Dia semana": "Martes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0008",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Dia semana": "Martes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0009",
-      "Dia semana": "Jueves",
-      "Slot": "5"
+      "Dia semana": "Viernes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0010",
-      "Dia semana": "Jueves",
-      "Slot": "5"
+      "Dia semana": "Viernes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0011",
-      "Dia semana": "Jueves",
-      "Slot": "5"
+      "Dia semana": "Viernes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0012",
+      "Dia semana": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0013",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0014",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0015",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0016",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0017",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0018",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0019",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0020",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0021",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0022",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0023",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0024",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0025",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0026",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0027",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0028",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0029",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0030",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0031",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0032",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0013",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0014",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0015",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0016",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0017",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0018",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0019",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0020",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0021",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0022",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0023",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0024",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0025",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0026",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0027",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0028",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0029",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0030",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0031",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0032",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0033",
       "Dia semana": "Jueves",
-      "Slot": "5"
+      "Slot": "1"
     },
     {
-      "Evento Id": "E0013",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0014",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0015",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0016",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0017",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0018",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0019",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0020",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0021",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0022",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0023",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0024",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0025",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0026",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0027",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0028",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0029",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0030",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0031",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0032",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0013",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0014",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0015",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0016",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0017",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0018",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0019",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0020",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0021",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0022",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0023",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0024",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0025",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0026",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0027",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0028",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0029",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0030",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0031",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0032",
-      "Dia semana": "Lunes",
-      "Slot": "3"
+      "Evento Id": "E0034",
+      "Dia semana": "Jueves",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0033",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Martes",
       "Slot": "2"
     },
     {
       "Evento Id": "E0034",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Martes",
       "Slot": "2"
-    },
-    {
-      "Evento Id": "E0033",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0034",
-      "Dia semana": "Lunes",
-      "Slot": "4"
     },
     {
       "Evento Id": "E0042",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0043",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0044",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0045",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0046",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0047",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0046",
       "Dia semana": "Martes",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0047",
       "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0055",
+      "Dia semana": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0056",
+      "Dia semana": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0055",
+      "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0056",
+      "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0055",
+      "Dia semana": "Lunes",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0055",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
       "Evento Id": "E0056",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0055",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0056",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0055",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0056",
-      "Dia semana": "Martes",
-      "Slot": "1"
+      "Dia semana": "Lunes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0057",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0058",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0057",
       "Dia semana": "Martes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0058",
       "Dia semana": "Martes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0066",
-      "Dia semana": "Jueves",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0067",
-      "Dia semana": "Jueves",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0066",
       "Dia semana": "Lunes",
-      "Slot": "2"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0067",
       "Dia semana": "Lunes",
-      "Slot": "2"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0077",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0078",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0080",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0081",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0083",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0084",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0086",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0088",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0089",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0090",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0092",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0094",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0095",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0096",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0098",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0100",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0101",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0102",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0104",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0106",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0107",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0108",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0110",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0112",
+      "Dia semana": "Jueves",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0083",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0084",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0086",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0088",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0089",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0090",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0092",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0094",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0095",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0096",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0098",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0100",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0101",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0102",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0104",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0106",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0107",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0108",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0110",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0112",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
-      "Evento Id": "E0083",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0084",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0086",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0088",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0089",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0090",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0092",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0094",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0095",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0096",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0098",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0100",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0101",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0102",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0104",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0106",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0107",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0108",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0110",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0112",
-      "Dia semana": "Martes",
+      "Evento Id": "E0118",
+      "Dia semana": "Miercoles",
       "Slot": "1"
     },
     {
       "Evento Id": "E0118",
       "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0118",
-      "Dia semana": "Jueves",
-      "Slot": "3"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0123",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0125",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0126",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0128",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
@@ -637,528 +637,528 @@
     },
     {
       "Evento Id": "E0145",
-      "Dia semana": "Jueves",
-      "Slot": "1"
+      "Dia semana": "Viernes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0145",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0149",
       "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0149",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0149",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0152",
-      "Dia semana": "Jueves",
-      "Slot": "2"
+      "Dia semana": "Martes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0170",
-      "Dia semana": "Viernes",
-      "Slot": "6"
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0171",
-      "Dia semana": "Viernes",
-      "Slot": "6"
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0170",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0171",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0172",
       "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0173",
+      "Evento Id": "E0171",
       "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0172",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0173",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0172",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0173",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0174",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0175",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0174",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0175",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0176",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0177",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0178",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0179",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0180",
       "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0180",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0181",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0182",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0183",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0184",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0185",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0186",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0187",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0188",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0189",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0190",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0191",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0192",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0193",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0194",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0195",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0196",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0197",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0198",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0199",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0200",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0201",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0202",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0203",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0204",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0205",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0206",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0207",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0208",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0209",
-      "Dia semana": "Viernes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0180",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0181",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0182",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0183",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0184",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0185",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0186",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0187",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0188",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0189",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0190",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0191",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0192",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0193",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0194",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0195",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0196",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0197",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0198",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0199",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0200",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0201",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0202",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0203",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0204",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0205",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0206",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0207",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0208",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0209",
       "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0210",
       "Dia semana": "Viernes",
-      "Slot": "1"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0211",
       "Dia semana": "Viernes",
-      "Slot": "1"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0218",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0219",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0218",
-      "Dia semana": "Lunes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0219",
-      "Dia semana": "Lunes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0220",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0221",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0220",
       "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0219",
+      "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0220",
+      "Dia semana": "Miercoles",
       "Slot": "3"
     },
     {
       "Evento Id": "E0221",
-      "Dia semana": "Martes",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0220",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0221",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0222",
+      "Dia semana": "Jueves",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0223",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0222",
       "Dia semana": "Viernes",
-      "Slot": "1"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0223",
       "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0222",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0223",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0224",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0225",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0226",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0227",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0228",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0229",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0230",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0231",
-      "Dia semana": "Jueves",
+      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Evento Id": "E0232",
       "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0233",
       "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0234",
@@ -1177,367 +1177,367 @@
     },
     {
       "Evento Id": "E0234",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0235",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0236",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0234",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0235",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0236",
       "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0234",
       "Dia semana": "Martes",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0235",
       "Dia semana": "Martes",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0236",
       "Dia semana": "Martes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0234",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0235",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0236",
+      "Dia semana": "Lunes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0237",
       "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0238",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0239",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0237",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0238",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0239",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0237",
-      "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0238",
-      "Dia semana": "Martes",
+      "Dia semana": "Viernes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0239",
-      "Dia semana": "Martes",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0237",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0238",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0239",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0237",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0238",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0239",
+      "Dia semana": "Jueves",
       "Slot": "6"
     },
     {
       "Evento Id": "E0240",
-      "Dia semana": "Viernes",
+      "Dia semana": "Martes",
       "Slot": "2"
     },
     {
       "Evento Id": "E0241",
-      "Dia semana": "Viernes",
+      "Dia semana": "Martes",
       "Slot": "2"
     },
     {
       "Evento Id": "E0242",
-      "Dia semana": "Viernes",
+      "Dia semana": "Martes",
       "Slot": "2"
     },
     {
       "Evento Id": "E0240",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0241",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0242",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0243",
       "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0244",
       "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0245",
       "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0252",
       "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0253",
       "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0252",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0253",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0254",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0255",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0254",
-      "Dia semana": "Martes",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0255",
-      "Dia semana": "Martes",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0256",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0257",
       "Dia semana": "Viernes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0256",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0257",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0258",
-      "Dia semana": "Viernes",
-      "Slot": "1"
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0259",
-      "Dia semana": "Viernes",
-      "Slot": "1"
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0260",
-      "Dia semana": "Jueves",
+      "Dia semana": "Lunes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0261",
-      "Dia semana": "Jueves",
+      "Dia semana": "Lunes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0262",
-      "Dia semana": "Jueves",
+      "Dia semana": "Lunes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0260",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Evento Id": "E0261",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Evento Id": "E0262",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Evento Id": "E0260",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0261",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0262",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0320",
       "Dia semana": "Viernes",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0320",
-      "Dia semana": "Lunes",
-      "Slot": "3"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0363",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Viernes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0363",
-      "Dia semana": "Martes",
-      "Slot": "2"
+      "Dia semana": "Lunes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0001",
       "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0001",
-      "Dia semana": "Miercoles",
       "Slot": "3"
     },
     {
       "Evento Id": "E0001",
       "Dia semana": "Jueves",
-      "Slot": "4"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0001",
       "Dia semana": "Martes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0001",
+      "Dia semana": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0002",
+      "Dia semana": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0002",
+      "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
       "Evento Id": "E0002",
       "Dia semana": "Lunes",
-      "Slot": "2"
+      "Slot": "4"
     },
     {
-      "Evento Id": "E0002",
+      "Evento Id": "E0003",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0003",
       "Dia semana": "Viernes",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0002",
-      "Dia semana": "Martes",
-      "Slot": "2"
+      "Evento Id": "E0003",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0003",
-      "Dia semana": "Martes",
-      "Slot": "3"
+      "Dia semana": "Lunes",
+      "Slot": "5"
     },
     {
-      "Evento Id": "E0003",
+      "Evento Id": "E0004",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0004",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0004",
       "Dia semana": "Viernes",
       "Slot": "1"
     },
     {
-      "Evento Id": "E0003",
-      "Dia semana": "Jueves",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0003",
-      "Dia semana": "Miercoles",
+      "Evento Id": "E0005",
+      "Dia semana": "Martes",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0004",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0004",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0004",
+      "Evento Id": "E0005",
       "Dia semana": "Jueves",
       "Slot": "6"
     },
     {
       "Evento Id": "E0005",
-      "Dia semana": "Martes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0005",
       "Dia semana": "Lunes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0005",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0005",
-      "Dia semana": "Miercoles",
       "Slot": "6"
     },
     {
       "Evento Id": "E0006",
-      "Dia semana": "Jueves",
+      "Dia semana": "Miercoles",
       "Slot": "1"
     },
     {
@@ -1552,248 +1552,248 @@
     },
     {
       "Evento Id": "E0035",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0036",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0036",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0036",
       "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0036",
-      "Dia semana": "Lunes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0037",
-      "Dia semana": "Martes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0037",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0037",
-      "Dia semana": "Jueves",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0038",
-      "Dia semana": "Jueves",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0038",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0038",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0038",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0039",
-      "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0039",
-      "Dia semana": "Miercoles",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0039",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0040",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0040",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0040",
-      "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0040",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0041",
-      "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0041",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0041",
-      "Dia semana": "Jueves",
       "Slot": "3"
+    },
+    {
+      "Evento Id": "E0036",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0036",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0036",
+      "Dia semana": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0036",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0037",
+      "Dia semana": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0037",
+      "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0037",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0038",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0038",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0038",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0038",
+      "Dia semana": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0039",
+      "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0039",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0039",
+      "Dia semana": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0040",
+      "Dia semana": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0040",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0040",
+      "Dia semana": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0040",
+      "Dia semana": "Miercoles",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0041",
+      "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0041",
+      "Dia semana": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0041",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0048",
-      "Dia semana": "Lunes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0049",
       "Dia semana": "Martes",
-      "Slot": "6"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0049",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0049",
-      "Dia semana": "Lunes",
+      "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
       "Evento Id": "E0049",
-      "Dia semana": "Jueves",
-      "Slot": "2"
+      "Dia semana": "Martes",
+      "Slot": "1"
     },
     {
-      "Evento Id": "E0050",
-      "Dia semana": "Jueves",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0050",
+      "Evento Id": "E0049",
       "Dia semana": "Lunes",
       "Slot": "1"
     },
     {
+      "Evento Id": "E0049",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0050",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
       "Evento Id": "E0050",
       "Dia semana": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0050",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0051",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0051",
+      "Dia semana": "Jueves",
       "Slot": "2"
     },
     {
       "Evento Id": "E0051",
+      "Dia semana": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0051",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0052",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0052",
+      "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0052",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0053",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0053",
+      "Dia semana": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0053",
+      "Dia semana": "Miercoles",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0053",
+      "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0054",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0054",
       "Dia semana": "Miercoles",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0051",
+      "Evento Id": "E0054",
       "Dia semana": "Jueves",
       "Slot": "3"
-    },
-    {
-      "Evento Id": "E0051",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0051",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0052",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0052",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0052",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0053",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0053",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0053",
-      "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0053",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0054",
-      "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0054",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0054",
-      "Dia semana": "Martes",
-      "Slot": "4"
     },
     {
       "Evento Id": "E0059",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0060",
       "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0060",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0060",
       "Dia semana": "Jueves",
-      "Slot": "3"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0060",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Miercoles",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0060",
+      "Dia semana": "Martes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0061",
@@ -1802,43 +1802,38 @@
     },
     {
       "Evento Id": "E0061",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Dia semana": "Martes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0061",
-      "Dia semana": "Martes",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0062",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0062",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0062",
       "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0062",
+      "Dia semana": "Lunes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0062",
+      "Dia semana": "Viernes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0062",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Evento Id": "E0063",
-      "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0063",
-      "Dia semana": "Jueves",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0063",
@@ -1846,6 +1841,21 @@
       "Slot": "1"
     },
     {
+      "Evento Id": "E0063",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0064",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0064",
+      "Dia semana": "Martes",
+      "Slot": "3"
+    },
+    {
       "Evento Id": "E0064",
       "Dia semana": "Jueves",
       "Slot": "5"
@@ -1853,202 +1863,187 @@
     {
       "Evento Id": "E0064",
       "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0064",
-      "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0064",
-      "Dia semana": "Martes",
-      "Slot": "5"
+      "Slot": "4"
     },
     {
       "Evento Id": "E0065",
       "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0065",
+      "Dia semana": "Jueves",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0065",
       "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0065",
-      "Dia semana": "Lunes",
-      "Slot": "5"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0068",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Dia semana": "Lunes",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0069",
       "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0069",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0069",
+      "Dia semana": "Lunes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0069",
       "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0069",
-      "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
-      "Evento Id": "E0069",
+      "Evento Id": "E0070",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0070",
+      "Dia semana": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0070",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0071",
+      "Dia semana": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0071",
+      "Dia semana": "Jueves",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0071",
+      "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0071",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0072",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0072",
+      "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0072",
+      "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0073",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0073",
       "Dia semana": "Jueves",
       "Slot": "1"
     },
     {
-      "Evento Id": "E0070",
-      "Dia semana": "Jueves",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0070",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0070",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0071",
-      "Dia semana": "Jueves",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0071",
-      "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0071",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0071",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0072",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0072",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0072",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0073",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0073",
-      "Dia semana": "Lunes",
-      "Slot": "5"
-    },
-    {
       "Evento Id": "E0074",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0074",
-      "Dia semana": "Jueves",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0074",
-      "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0075",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0075",
       "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0076",
+      "Evento Id": "E0074",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0075",
       "Dia semana": "Viernes",
-      "Slot": "2"
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0075",
+      "Dia semana": "Lunes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0076",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0076",
       "Dia semana": "Jueves",
       "Slot": "4"
+    },
+    {
+      "Evento Id": "E0076",
+      "Dia semana": "Lunes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0113",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0114",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0114",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0114",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0114",
       "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0115",
-      "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0115",
+      "Evento Id": "E0114",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0114",
+      "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0114",
       "Dia semana": "Viernes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0115",
-      "Dia semana": "Lunes",
-      "Slot": "5"
+      "Dia semana": "Viernes",
+      "Slot": "3"
     },
     {
-      "Evento Id": "E0116",
-      "Dia semana": "Miercoles",
+      "Evento Id": "E0115",
+      "Dia semana": "Lunes",
       "Slot": "3"
+    },
+    {
+      "Evento Id": "E0115",
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0116",
@@ -2057,32 +2052,37 @@
     },
     {
       "Evento Id": "E0116",
-      "Dia semana": "Martes",
+      "Dia semana": "Lunes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0116",
-      "Dia semana": "Lunes",
+      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
-      "Evento Id": "E0117",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0117",
-      "Dia semana": "Lunes",
+      "Evento Id": "E0116",
+      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
       "Evento Id": "E0117",
-      "Dia semana": "Viernes",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
-      "Evento Id": "E0120",
+      "Evento Id": "E0117",
       "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0117",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0120",
+      "Dia semana": "Miercoles",
       "Slot": "5"
     },
     {
@@ -2092,178 +2092,183 @@
     },
     {
       "Evento Id": "E0120",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0121",
-      "Dia semana": "Lunes",
-      "Slot": "2"
+      "Dia semana": "Martes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0121",
       "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Slot": "2"
     },
     {
-      "Evento Id": "E0122",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Evento Id": "E0121",
+      "Dia semana": "Martes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0122",
       "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0122",
+      "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0122",
       "Dia semana": "Lunes",
-      "Slot": "4"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0141",
-      "Dia semana": "Martes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0141",
-      "Dia semana": "Jueves",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0141",
-      "Dia semana": "Lunes",
+      "Dia semana": "Viernes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0141",
-      "Dia semana": "Viernes",
-      "Slot": "6"
+      "Dia semana": "Lunes",
+      "Slot": "2"
     },
     {
-      "Evento Id": "E0142",
+      "Evento Id": "E0141",
       "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
-      "Evento Id": "E0142",
-      "Dia semana": "Viernes",
+      "Evento Id": "E0141",
+      "Dia semana": "Jueves",
       "Slot": "1"
     },
     {
       "Evento Id": "E0142",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0143",
       "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0143",
-      "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0143",
-      "Dia semana": "Jueves",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0143",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0144",
-      "Dia semana": "Jueves",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0144",
+      "Evento Id": "E0142",
       "Dia semana": "Miercoles",
       "Slot": "2"
     },
     {
-      "Evento Id": "E0144",
-      "Dia semana": "Martes",
-      "Slot": "2"
+      "Evento Id": "E0142",
+      "Dia semana": "Jueves",
+      "Slot": "3"
     },
     {
-      "Evento Id": "E0147",
-      "Dia semana": "Viernes",
+      "Evento Id": "E0143",
+      "Dia semana": "Martes",
       "Slot": "4"
     },
     {
-      "Evento Id": "E0147",
+      "Evento Id": "E0143",
+      "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0143",
       "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0143",
+      "Dia semana": "Viernes",
       "Slot": "2"
+    },
+    {
+      "Evento Id": "E0144",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0144",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0144",
+      "Dia semana": "Martes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0147",
       "Dia semana": "Jueves",
-      "Slot": "4"
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0147",
+      "Dia semana": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0147",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0148",
-      "Dia semana": "Viernes",
-      "Slot": "2"
+      "Dia semana": "Martes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0148",
       "Dia semana": "Lunes",
-      "Slot": "4"
+      "Slot": "1"
     },
     {
       "Evento Id": "E0151",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0151",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0151",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0154",
-      "Dia semana": "Lunes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0154",
       "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
-      "Evento Id": "E0154",
+      "Evento Id": "E0151",
       "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0151",
+      "Dia semana": "Lunes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0154",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Dia semana": "Jueves",
+      "Slot": "5"
     },
     {
-      "Evento Id": "E0155",
+      "Evento Id": "E0154",
       "Dia semana": "Viernes",
       "Slot": "2"
     },
     {
+      "Evento Id": "E0154",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0154",
+      "Dia semana": "Lunes",
+      "Slot": "3"
+    },
+    {
       "Evento Id": "E0155",
-      "Dia semana": "Jueves",
-      "Slot": "6"
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0155",
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0155",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0156",
+      "Dia semana": "Martes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0156",
@@ -2272,58 +2277,53 @@
     },
     {
       "Evento Id": "E0156",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0156",
       "Dia semana": "Viernes",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Evento Id": "E0156",
-      "Dia semana": "Jueves",
-      "Slot": "3"
+      "Dia semana": "Miercoles",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0157",
-      "Dia semana": "Martes",
+      "Dia semana": "Viernes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0157",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Dia semana": "Miercoles",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0157",
+      "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0158",
       "Dia semana": "Miercoles",
       "Slot": "2"
     },
     {
       "Evento Id": "E0158",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0158",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Dia semana": "Martes",
+      "Slot": "3"
     },
     {
       "Evento Id": "E0159",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0159",
-      "Dia semana": "Viernes",
+      "Dia semana": "Martes",
       "Slot": "5"
     },
     {
       "Evento Id": "E0159",
       "Dia semana": "Jueves",
-      "Slot": "2"
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0159",
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0160",
@@ -2333,317 +2333,312 @@
     {
       "Evento Id": "E0160",
       "Dia semana": "Lunes",
-      "Slot": "3"
+      "Slot": "2"
     },
     {
       "Evento Id": "E0161",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Evento Id": "E0161",
-      "Dia semana": "Lunes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0162",
-      "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Dia semana": "Martes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0162",
       "Dia semana": "Jueves",
-      "Slot": "5"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0162",
-      "Dia semana": "Lunes",
-      "Slot": "2"
+      "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0162",
+      "Dia semana": "Viernes",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0163",
-      "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0164",
       "Dia semana": "Lunes",
-      "Slot": "3"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0164",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0164",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Evento Id": "E0164",
-      "Dia semana": "Martes",
+      "Dia semana": "Miercoles",
       "Slot": "1"
     },
     {
       "Evento Id": "E0164",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0165",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0165",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0165",
-      "Dia semana": "Jueves",
+      "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Evento Id": "E0165",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0166",
-      "Dia semana": "Miercoles",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0166",
-      "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0166",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0166",
       "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0167",
-      "Dia semana": "Viernes",
+      "Evento Id": "E0165",
+      "Dia semana": "Martes",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0167",
+      "Evento Id": "E0165",
       "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0165",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0166",
+      "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0166",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0166",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0166",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0167",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0167",
+      "Dia semana": "Jueves",
       "Slot": "1"
     },
     {
       "Evento Id": "E0167",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0168",
-      "Dia semana": "Jueves",
-      "Slot": "2"
+      "Dia semana": "Lunes",
+      "Slot": "5"
     },
     {
       "Evento Id": "E0168",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0168",
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0168",
       "Dia semana": "Miercoles",
-      "Slot": "3"
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0169",
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0169",
       "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0212",
+      "Dia semana": "Miercoles",
       "Slot": "6"
     },
     {
-      "Evento Id": "E0169",
-      "Dia semana": "Martes",
-      "Slot": "6"
+      "Evento Id": "E0212",
+      "Dia semana": "Lunes",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0212",
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0212",
       "Dia semana": "Jueves",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
-      "Evento Id": "E0212",
+      "Evento Id": "E0213",
       "Dia semana": "Martes",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
-      "Evento Id": "E0212",
+      "Evento Id": "E0213",
       "Dia semana": "Miercoles",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0212",
-      "Dia semana": "Lunes",
-      "Slot": "3"
+      "Evento Id": "E0213",
+      "Dia semana": "Jueves",
+      "Slot": "6"
     },
     {
       "Evento Id": "E0213",
       "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0213",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0213",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0213",
-      "Dia semana": "Martes",
-      "Slot": "2"
+      "Slot": "6"
     },
     {
       "Evento Id": "E0214",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Martes",
       "Slot": "4"
     },
     {
       "Evento Id": "E0214",
-      "Dia semana": "Martes",
-      "Slot": "5"
+      "Dia semana": "Jueves",
+      "Slot": "4"
     },
     {
       "Evento Id": "E0214",
       "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0214",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0215",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Evento Id": "E0215",
-      "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
-      "Evento Id": "E0215",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0216",
+      "Evento Id": "E0214",
       "Dia semana": "Viernes",
-      "Slot": "3"
+      "Slot": "6"
     },
     {
-      "Evento Id": "E0216",
+      "Evento Id": "E0215",
       "Dia semana": "Jueves",
       "Slot": "2"
     },
     {
-      "Evento Id": "E0216",
+      "Evento Id": "E0215",
       "Dia semana": "Miercoles",
+      "Slot": "1"
+    },
+    {
+      "Evento Id": "E0215",
+      "Dia semana": "Martes",
       "Slot": "3"
     },
     {
-      "Evento Id": "E0217",
-      "Dia semana": "Martes",
+      "Evento Id": "E0216",
+      "Dia semana": "Miercoles",
       "Slot": "4"
+    },
+    {
+      "Evento Id": "E0216",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Evento Id": "E0216",
+      "Dia semana": "Martes",
+      "Slot": "2"
     },
     {
       "Evento Id": "E0217",
       "Dia semana": "Jueves",
-      "Slot": "4"
+      "Slot": "1"
     },
     {
-      "Evento Id": "E0246",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0246",
-      "Dia semana": "Martes",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0246",
-      "Dia semana": "Miercoles",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0246",
-      "Dia semana": "Lunes",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0247",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0247",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Evento Id": "E0247",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Evento Id": "E0247",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0248",
+      "Evento Id": "E0217",
       "Dia semana": "Martes",
       "Slot": "6"
     },
     {
-      "Evento Id": "E0248",
-      "Dia semana": "Viernes",
-      "Slot": "3"
+      "Evento Id": "E0246",
+      "Dia semana": "Martes",
+      "Slot": "2"
     },
     {
-      "Evento Id": "E0248",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Evento Id": "E0248",
-      "Dia semana": "Jueves",
-      "Slot": "6"
-    },
-    {
-      "Evento Id": "E0249",
+      "Evento Id": "E0246",
       "Dia semana": "Lunes",
       "Slot": "2"
     },
     {
-      "Evento Id": "E0249",
-      "Dia semana": "Viernes",
+      "Evento Id": "E0246",
+      "Dia semana": "Jueves",
       "Slot": "2"
     },
     {
-      "Evento Id": "E0249",
+      "Evento Id": "E0246",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0247",
       "Dia semana": "Miercoles",
       "Slot": "1"
     },
     {
-      "Evento Id": "E0250",
+      "Evento Id": "E0247",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0247",
+      "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0247",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0248",
       "Dia semana": "Miercoles",
-      "Slot": "2"
+      "Slot": "4"
+    },
+    {
+      "Evento Id": "E0248",
+      "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0248",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0248",
+      "Dia semana": "Lunes",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0249",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0249",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Evento Id": "E0249",
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Evento Id": "E0250",
@@ -2653,48 +2648,53 @@
     {
       "Evento Id": "E0250",
       "Dia semana": "Martes",
+      "Slot": "3"
+    },
+    {
+      "Evento Id": "E0250",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Evento Id": "E0251",
+      "Dia semana": "Lunes",
       "Slot": "1"
     },
     {
       "Evento Id": "E0251",
       "Dia semana": "Martes",
-      "Slot": "2"
-    },
-    {
-      "Evento Id": "E0251",
-      "Dia semana": "Jueves",
       "Slot": "5"
     }
   ],
   "Reuniones": [
     {
       "Reunion Id": "RTUT1",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
+      "Dia semana": "Lunes",
+      "Slot": "4"
     },
     {
       "Reunion Id": "RTUT2",
-      "Dia semana": "Martes",
-      "Slot": "4"
+      "Dia semana": "Jueves",
+      "Slot": "2"
     },
     {
       "Reunion Id": "RTUT3",
       "Dia semana": "Martes",
-      "Slot": "5"
+      "Slot": "4"
     }
   ],
   "Guardias": [
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC001",
-      "Dia semana": "Jueves",
-      "Slot": "3"
+      "Dia semana": "Martes",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC001",
       "Dia semana": "Jueves",
-      "Slot": "5"
+      "Slot": "6"
     },
     {
       "Tipo guardia": "Recreo",
@@ -2711,133 +2711,133 @@
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC002",
-      "Dia semana": "Lunes",
-      "Slot": "3"
+      "Dia semana": "Miercoles",
+      "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC002",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC003",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC003",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC003",
-      "Dia semana": "Viernes",
-      "Slot": "6"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC004",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC004",
-      "Dia semana": "Viernes",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC004",
-      "Dia semana": "Viernes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC005",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC005",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC006",
-      "Dia semana": "Miercoles",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC006",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC006",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC007",
-      "Dia semana": "Lunes",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC007",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC007",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC010",
-      "Dia semana": "Lunes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC010",
-      "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC010",
       "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC011",
+      "Profesor Id": "DOC003",
+      "Dia semana": "Martes",
+      "Slot": "1"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC003",
+      "Dia semana": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC003",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC004",
       "Dia semana": "Lunes",
       "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC011",
+      "Profesor Id": "DOC004",
+      "Dia semana": "Martes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC004",
+      "Dia semana": "Martes",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC005",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC005",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC006",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC006",
+      "Dia semana": "Jueves",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC006",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC007",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC007",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC007",
       "Dia semana": "Viernes",
       "Slot": "4"
     },
     {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC010",
+      "Dia semana": "Lunes",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC010",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC010",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC011",
+      "Dia semana": "Martes",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC011",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
       "Tipo guardia": "Recreo",
       "Profesor Id": "DOC011",
-      "Dia semana": "Jueves",
+      "Dia semana": "Miercoles",
       "Slot": "R"
     },
     {
@@ -2850,55 +2850,55 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC012",
       "Dia semana": "Lunes",
-      "Slot": "6"
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC012",
+      "Dia semana": "Martes",
+      "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC012",
       "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC012",
-      "Dia semana": "Viernes",
-      "Slot": "6"
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC013",
-      "Dia semana": "Jueves",
-      "Slot": "5"
+      "Dia semana": "Viernes",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC015",
+      "Dia semana": "Martes",
+      "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC015",
       "Dia semana": "Miercoles",
-      "Slot": "6"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC015",
-      "Dia semana": "Jueves",
       "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC017",
       "Dia semana": "Martes",
-      "Slot": "4"
+      "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC017",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC019",
       "Dia semana": "Martes",
-      "Slot": "2"
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Recreo",
@@ -2928,7 +2928,7 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC020",
       "Dia semana": "Lunes",
-      "Slot": "4"
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -2940,13 +2940,13 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC020",
       "Dia semana": "Viernes",
-      "Slot": "3"
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC021",
-      "Dia semana": "Miercoles",
-      "Slot": "6"
+      "Dia semana": "Lunes",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -2957,7 +2957,7 @@
     {
       "Tipo guardia": "Recreo",
       "Profesor Id": "DOC021",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Lunes",
       "Slot": "R"
     },
     {
@@ -2969,20 +2969,20 @@
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC022",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Lunes",
       "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC023",
-      "Dia semana": "Lunes",
-      "Slot": "4"
+      "Dia semana": "Martes",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC023",
-      "Dia semana": "Martes",
-      "Slot": "2"
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -2993,98 +2993,92 @@
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC026",
-      "Dia semana": "Jueves",
-      "Slot": "4"
+      "Dia semana": "Lunes",
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC027",
       "Dia semana": "Lunes",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC028",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC028",
+      "Dia semana": "Miercoles",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC028",
+      "Dia semana": "Jueves",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC030",
       "Dia semana": "Lunes",
-      "Slot": "1"
+      "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC028",
+      "Profesor Id": "DOC030",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC030",
+      "Dia semana": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC031",
+      "Dia semana": "Miercoles",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC031",
+      "Dia semana": "Miercoles",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC031",
+      "Dia semana": "Miercoles",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC032",
+      "Dia semana": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC032",
       "Dia semana": "Martes",
       "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC028",
-      "Dia semana": "Jueves",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC030",
-      "Dia semana": "Lunes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC030",
-      "Dia semana": "Miercoles",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC030",
-      "Dia semana": "Jueves",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC031",
-      "Dia semana": "Jueves",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC031",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC031",
-      "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC032",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC032",
-      "Dia semana": "Viernes",
+      "Dia semana": "Martes",
       "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC032",
-      "Dia semana": "Viernes",
-      "Slot": "6"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC033",
       "Dia semana": "Martes",
-      "Slot": "6"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC033",
-      "Dia semana": "Miercoles",
-      "Slot": "4"
+      "Slot": "2"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -3094,27 +3088,33 @@
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC034",
-      "Dia semana": "Lunes",
-      "Slot": "6"
+      "Profesor Id": "DOC033",
+      "Dia semana": "Jueves",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC034",
-      "Dia semana": "Jueves",
-      "Slot": "3"
+      "Dia semana": "Martes",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC034",
+      "Dia semana": "Viernes",
+      "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC036",
       "Dia semana": "Martes",
-      "Slot": "1"
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC036",
       "Dia semana": "Jueves",
-      "Slot": "6"
+      "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -3126,13 +3126,13 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC037",
       "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Slot": "6"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC037",
-      "Dia semana": "Jueves",
-      "Slot": "6"
+      "Dia semana": "Viernes",
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
@@ -3144,234 +3144,234 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC038",
       "Dia semana": "Miercoles",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Recreo",
-      "Profesor Id": "DOC038",
-      "Dia semana": "Lunes",
-      "Slot": "R"
+      "Slot": "6"
     },
     {
       "Tipo guardia": "Recreo",
       "Profesor Id": "DOC038",
       "Dia semana": "Miercoles",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC038",
+      "Dia semana": "Jueves",
       "Slot": "R"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC039",
-      "Dia semana": "Martes",
-      "Slot": "3"
+      "Dia semana": "Lunes",
+      "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC039",
       "Dia semana": "Viernes",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC040",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC040",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC040",
-      "Dia semana": "Viernes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC042",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC042",
-      "Dia semana": "Jueves",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC042",
-      "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC044",
+      "Profesor Id": "DOC040",
       "Dia semana": "Lunes",
       "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC044",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC044",
-      "Dia semana": "Viernes",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC045",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC045",
-      "Dia semana": "Miercoles",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC045",
-      "Dia semana": "Jueves",
+      "Profesor Id": "DOC040",
+      "Dia semana": "Lunes",
       "Slot": "6"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC047",
+      "Profesor Id": "DOC040",
+      "Dia semana": "Miercoles",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC042",
       "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC042",
+      "Dia semana": "Jueves",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC042",
+      "Dia semana": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC044",
+      "Dia semana": "Martes",
       "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC047",
-      "Dia semana": "Jueves",
-      "Slot": "2"
-    },
-    {
-      "Tipo guardia": "Recreo",
-      "Profesor Id": "DOC047",
-      "Dia semana": "Lunes",
-      "Slot": "R"
-    },
-    {
-      "Tipo guardia": "Recreo",
-      "Profesor Id": "DOC047",
-      "Dia semana": "Viernes",
-      "Slot": "R"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC048",
-      "Dia semana": "Lunes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC048",
-      "Dia semana": "Jueves",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Recreo",
-      "Profesor Id": "DOC048",
-      "Dia semana": "Jueves",
-      "Slot": "R"
-    },
-    {
-      "Tipo guardia": "Recreo",
-      "Profesor Id": "DOC048",
-      "Dia semana": "Viernes",
-      "Slot": "R"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC050",
-      "Dia semana": "Martes",
-      "Slot": "5"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC050",
+      "Profesor Id": "DOC044",
       "Dia semana": "Martes",
       "Slot": "6"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC050",
+      "Profesor Id": "DOC044",
+      "Dia semana": "Jueves",
+      "Slot": "1"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC045",
       "Dia semana": "Miercoles",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC051",
-      "Dia semana": "Martes",
       "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC051",
-      "Dia semana": "Viernes",
-      "Slot": "1"
+      "Profesor Id": "DOC045",
+      "Dia semana": "Miercoles",
+      "Slot": "2"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC051",
+      "Profesor Id": "DOC045",
       "Dia semana": "Viernes",
       "Slot": "3"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC052",
+      "Profesor Id": "DOC047",
+      "Dia semana": "Viernes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC047",
+      "Dia semana": "Viernes",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC047",
+      "Dia semana": "Lunes",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC047",
+      "Dia semana": "Viernes",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC048",
+      "Dia semana": "Jueves",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC048",
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC048",
+      "Dia semana": "Jueves",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Recreo",
+      "Profesor Id": "DOC048",
+      "Dia semana": "Viernes",
+      "Slot": "R"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC050",
       "Dia semana": "Lunes",
       "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC050",
+      "Dia semana": "Lunes",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC050",
+      "Dia semana": "Jueves",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC051",
+      "Dia semana": "Lunes",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC051",
+      "Dia semana": "Lunes",
+      "Slot": "3"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC051",
+      "Dia semana": "Martes",
+      "Slot": "5"
+    },
+    {
+      "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC052",
+      "Dia semana": "Jueves",
+      "Slot": "2"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC052",
+      "Dia semana": "Viernes",
+      "Slot": "6"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC054",
       "Dia semana": "Miercoles",
       "Slot": "2"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC054",
-      "Dia semana": "Martes",
-      "Slot": "1"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC054",
-      "Dia semana": "Martes",
-      "Slot": "4"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC054",
       "Dia semana": "Miercoles",
       "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC055",
-      "Dia semana": "Martes",
+      "Profesor Id": "DOC054",
+      "Dia semana": "Jueves",
       "Slot": "5"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC055",
-      "Dia semana": "Miercoles",
-      "Slot": "1"
+      "Dia semana": "Jueves",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC055",
+      "Dia semana": "Viernes",
+      "Slot": "3"
     },
     {
       "Tipo guardia": "Recreo",
       "Profesor Id": "DOC055",
-      "Dia semana": "Miercoles",
+      "Dia semana": "Jueves",
       "Slot": "R"
     },
     {
@@ -3383,25 +3383,25 @@
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC056",
-      "Dia semana": "Martes",
-      "Slot": "3"
-    },
-    {
-      "Tipo guardia": "Pasillo",
-      "Profesor Id": "DOC056",
-      "Dia semana": "Martes",
+      "Dia semana": "Jueves",
       "Slot": "4"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC056",
-      "Dia semana": "Martes",
+      "Dia semana": "Viernes",
+      "Slot": "4"
+    },
+    {
+      "Tipo guardia": "Pasillo",
+      "Profesor Id": "DOC056",
+      "Dia semana": "Viernes",
       "Slot": "5"
     },
     {
       "Tipo guardia": "Recreo",
       "Profesor Id": "DOC057",
-      "Dia semana": "Jueves",
+      "Dia semana": "Miercoles",
       "Slot": "R"
     },
     {
@@ -3414,13 +3414,13 @@
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC058",
       "Dia semana": "Miercoles",
-      "Slot": "5"
+      "Slot": "1"
     },
     {
       "Tipo guardia": "Pasillo",
       "Profesor Id": "DOC058",
       "Dia semana": "Jueves",
-      "Slot": "2"
+      "Slot": "5"
     }
   ]
 }

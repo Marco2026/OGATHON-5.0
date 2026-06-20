@@ -17,7 +17,8 @@ from .instance import Instance, GUARD_TYPES
 
 
 def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
-          log: bool = False, enable: dict | None = None) -> tuple[dict, dict]:
+          log: bool = False, enable: dict | None = None,
+          optimize: bool = True, hint: dict | None = None) -> tuple[dict, dict]:
     """Resuelve la instancia. Devuelve (solucion_dict, info).
 
     `enable` permite desactivar grupos de restricciones para diagnostico:
@@ -267,7 +268,7 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
     # esta vacia y tiene actividad antes y despues ese dia. Las posiciones donde el
     # docente no puede tener actividad se tratan como vacias constantes (busy=0).
     obj_terms = []
-    for t in inst.docentes:
+    for t in (inst.docentes if optimize else []):
         for d in days:
             # expresion busy por posicion (var o constante 0)
             bexpr = [busy.get((t, d, p), 0) for p in range(P)]
@@ -289,7 +290,12 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
                 m.Add(gap >= hb + ha - bexpr[p] - 1)
                 obj_terms.append(half[p] * gap)
 
-    m.Minimize(sum(obj_terms))
+    if optimize:
+        m.Minimize(sum(obj_terms))
+
+    # ---------- pista (warm start) desde una solucion previa ----------
+    if hint:
+        _apply_hint(m, inst, hint, x, y, g)
 
     # ---------- resolver ----------
     solver = cp_model.CpSolver()
@@ -329,3 +335,51 @@ def solve(inst: Instance, time_limit: float = 60.0, workers: int = 8,
                 "Tipo guardia": tipo, "Profesor Id": doc,
                 "Dia semana": d, "Slot": slabel})
     return sol, info
+
+
+def _apply_hint(m, inst: Instance, hint: dict, x, y, g) -> None:
+    """Aplica una solucion previa como warm-start (best-effort)."""
+    from collections import defaultdict
+    # eventos: agrupar slots por unidad (los miembros comparten colocacion)
+    unit_slots: dict[int, list[tuple[str, str]]] = defaultdict(list)
+    seen_unit = set()
+    for e in hint.get("Eventos", []):
+        eid = e["Evento Id"]
+        u_idx = inst.event_to_unit.get(eid)
+        if u_idx is None:
+            continue
+        # usar solo un evento representativo por unidad
+        rep = inst.units[u_idx].event_ids[0]
+        if eid != rep:
+            continue
+        unit_slots[u_idx].append((e["Dia semana"], str(e["Slot"])))
+
+    for u_idx, placements in unit_slots.items():
+        u = inst.units[u_idx]
+        lens = list(u.session_lengths)
+        # emparejar cada (dia,slot) con una longitud valida y su variable x
+        used = [False] * len(lens)
+        for (d, slot) in placements:
+            if slot not in inst.class_slots:
+                continue
+            cs = inst.class_slots.index(slot)
+            for k, L in enumerate(lens):
+                if used[k]:
+                    continue
+                if cs in set(inst.valid_starts(L)) and (d, cs) in x.get((u_idx, k), {}):
+                    m.AddHint(x[(u_idx, k)][(d, cs)], 1)
+                    used[k] = True
+                    break
+
+    for r in hint.get("Reuniones", []):
+        rid = r["Reunion Id"]
+        slot = str(r["Slot"])
+        if slot in inst.class_slots and rid in y:
+            cs = inst.class_slots.index(slot)
+            if (r["Dia semana"], cs) in y[rid]:
+                m.AddHint(y[rid][(r["Dia semana"], cs)], 1)
+
+    for gd in hint.get("Guardias", []):
+        key = (gd["Profesor Id"], gd["Dia semana"], str(gd["Slot"]), gd["Tipo guardia"])
+        if key in g:
+            m.AddHint(g[key], 1)

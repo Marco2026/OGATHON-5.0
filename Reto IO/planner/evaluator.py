@@ -38,11 +38,12 @@ def _slot_supports(inst: Instance, slot: str, length: int) -> bool:
 def _session_length_map(inst: Instance, eventos_sol: list[dict]) -> dict:
     """Empareja cada entrada de evento con la duracion de una de sus sesiones.
 
-    La salida no codifica la duracion de cada entrada, asi que se busca (por
-    evento) una asignacion de sus duraciones de sesion a sus entradas tal que
-    cada colocacion sea valida (el slot admite esa duracion). Si tal emparejamiento
-    existe, se usa; si no, se asigna por orden descendente (y la validacion
-    reportara el problema). Devuelve {indice_entrada: longitud_en_slots}.
+    La salida no codifica la duracion de cada entrada. El criterio canonico
+    (consistente con el solver, que emite las sesiones en el orden de la
+    `Distribucion Semanal`) es: la k-esima entrada de un evento corresponde a la
+    k-esima duracion de su distribucion. Si ese emparejamiento por orden resultara
+    en alguna colocacion invalida, se intenta un emparejamiento por slots como
+    respaldo. Devuelve {indice_entrada: longitud_en_slots}.
     """
     by_event: dict[str, list[int]] = defaultdict(list)
     for i, e in enumerate(eventos_sol):
@@ -56,18 +57,20 @@ def _session_length_map(inst: Instance, eventos_sol: list[dict]) -> dict:
             lens.append(1)
         slots = [str(eventos_sol[i]["Slot"]) for i in idxs]
 
-        # backtracking: asignar cada entrada una longitud (multiset `lens`) valida
-        assignment = _match_lengths(inst, slots, sorted(lens, reverse=True))
-        if assignment is None:
-            assignment = sorted(lens, reverse=True)  # sin emparejamiento valido
+        # emparejamiento canonico por orden de aparicion == orden de distribucion
+        ordered = lens[:len(idxs)]
+        if all(_slot_supports(inst, sl, L) for sl, L in zip(slots, ordered)):
+            assignment = ordered
+        else:
+            assignment = _match_lengths(inst, slots, sorted(lens, reverse=True)) or ordered
         for entry_idx, L in zip(idxs, assignment):
             length_of_entry[entry_idx] = L
     return length_of_entry
 
 
 def _match_lengths(inst: Instance, slots: list[str], lens: list[int]):
-    """Devuelve una lista de longitudes (alineada con `slots`) usando exactamente
-    el multiset `lens`, tal que cada slot admite su longitud. None si no existe."""
+    """Respaldo: asigna longitudes (alineadas con `slots`) usando el multiset
+    `lens` tal que cada slot admita su longitud. None si no existe."""
     n = len(slots)
     result = [None] * n
     used = [False] * len(lens)

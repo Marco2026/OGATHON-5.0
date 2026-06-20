@@ -33,11 +33,32 @@ def run_one(path: str, time_limit: float, workers: int, log: bool = False) -> di
     print(f"\n=== {inst.name} ===")
     print(f"  unidades={len(inst.units)} docentes={len(inst.docentes)} "
           f"reuniones={len(inst.reuniones)} guardias_demanda={sum(inst.guard_demand.values())}")
-    sol, info = solve(inst, time_limit=time_limit, workers=workers, log=log)
-    print(f"  status={info['status']} objetivo={info['objective']} "
-          f"cota={info['best_bound']} tiempo={info['wall_time']:.1f}s")
-    rep = evaluate(inst, sol)
-    print(f"  HUECOS={rep.huecos}  factible={rep.feasible}  "
+
+    # Fase 1: factibilidad pura (rapida, sin objetivo de huecos)
+    t_feas = min(max(20.0, time_limit * 0.25), 90.0)
+    sol_f, info_f = solve(inst, time_limit=t_feas, workers=workers, optimize=False)
+    rep_f = evaluate(inst, sol_f)
+    print(f"  [factib] status={info_f['status']} t={info_f['wall_time']:.1f}s "
+          f"HUECOS={rep_f.huecos} factible={rep_f.feasible} viol={len(rep_f.hard_violations)}")
+
+    # Fase 2: optimizar huecos usando la solucion factible como pista
+    sol_o, info_o = solve(inst, time_limit=time_limit, workers=workers, log=log,
+                          optimize=True, hint=sol_f if rep_f.feasible else None)
+    rep_o = evaluate(inst, sol_o)
+    print(f"  [optim ] status={info_o['status']} objetivo={info_o['objective']} "
+          f"cota={info_o['best_bound']} t={info_o['wall_time']:.1f}s "
+          f"HUECOS={rep_o.huecos} factible={rep_o.feasible} viol={len(rep_o.hard_violations)}")
+
+    # elegir la mejor solucion factible (menos huecos); si ninguna es factible,
+    # quedarse con la de optimizacion
+    cands = [(rep_o, sol_o, info_o), (rep_f, sol_f, info_f)]
+    feas = [(r, s, i) for r, s, i in cands if r.feasible]
+    if feas:
+        rep, sol, info = min(feas, key=lambda c: c[0].huecos)
+    else:
+        rep, sol, info = cands[0]
+
+    print(f"  >> ELEGIDA: HUECOS={rep.huecos} factible={rep.feasible} "
           f"violaciones={len(rep.hard_violations)}")
     for v in rep.hard_violations[:15]:
         print("    !", v)
